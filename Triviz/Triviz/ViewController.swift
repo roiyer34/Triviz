@@ -21,5 +21,11 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buttonSportsClicked(_ sender: Any) {
+    }
+    @IBAction func buttonPoliticsClicked(_ sender: Any) {
+    }
+    @IBAction func buttonEntertainmentClicked(_ sender: Any) {
+    }
 }
 
