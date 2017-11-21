@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,12 +19,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Triviz" translatesAutoresizingMaskIntoConstraints="NO" id="F2d-Wq-f1U">
-                                <rect key="frame" x="37" y="82" width="301" height="214"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Triviz" translatesAutoresizingMaskIntoConstraints="NO" id="F2d-Wq-f1U">
+                                <rect key="frame" x="-5" y="113" width="410" height="354.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="F2d-Wq-f1U" secondAttribute="height" multiplier="429:371" id="RdZ-Fe-PBb"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="F2d-Wq-f1U" secondAttribute="trailing" constant="-30" id="WAY-h7-bPg"/>
+                            <constraint firstItem="F2d-Wq-f1U" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="93" id="msJ-Pm-kiG"/>
+                            <constraint firstItem="F2d-Wq-f1U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-5" id="r4o-Z2-68Y"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
