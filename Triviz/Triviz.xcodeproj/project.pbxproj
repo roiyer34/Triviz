@@ -14,6 +14,9 @@
 		1CFCC2A91FC1F81200B9391F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCC2A71FC1F81200B9391F /* LaunchScreen.storyboard */; };
 		1CFCC2B41FC1F81300B9391F /* TrivizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC2B31FC1F81300B9391F /* TrivizTests.swift */; };
 		1CFCC2BF1FC1F81300B9391F /* TrivizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC2BE1FC1F81300B9391F /* TrivizUITests.swift */; };
+		1CFCC2CD1FC4E37A00B9391F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC2CC1FC4E37A00B9391F /* Question.swift */; };
+		1CFCC2CF1FC4E8D300B9391F /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC2CE1FC4E8D300B9391F /* Topic.swift */; };
+		1CFCC2D11FC4F33300B9391F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC2D01FC4F33300B9391F /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		1CFCC2BA1FC1F81300B9391F /* TrivizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFCC2BE1FC1F81300B9391F /* TrivizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivizUITests.swift; sourceTree = "<group>"; };
 		1CFCC2C01FC1F81300B9391F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFCC2CC1FC4E37A00B9391F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		1CFCC2CE1FC4E8D300B9391F /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		1CFCC2D01FC4F33300B9391F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				1CFCC2A51FC1F81200B9391F /* Assets.xcassets */,
 				1CFCC2A71FC1F81200B9391F /* LaunchScreen.storyboard */,
 				1CFCC2AA1FC1F81200B9391F /* Info.plist */,
+				1CFCC2CC1FC4E37A00B9391F /* Question.swift */,
+				1CFCC2CE1FC4E8D300B9391F /* Topic.swift */,
+				1CFCC2D01FC4F33300B9391F /* Game.swift */,
 			);
 			path = Triviz;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CFCC2D11FC4F33300B9391F /* Game.swift in Sources */,
 				1CFCC2A11FC1F81200B9391F /* ViewController.swift in Sources */,
+				1CFCC2CF1FC4E8D300B9391F /* Topic.swift in Sources */,
+				1CFCC2CD1FC4E37A00B9391F /* Question.swift in Sources */,
 				1CFCC29F1FC1F81200B9391F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
