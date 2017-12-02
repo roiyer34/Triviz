@@ -13,16 +13,19 @@
 
 
 import Foundation
+import UIKit
 
 class Topic {
     
     let name: String
+    let image: UIImage
     let description: String
     var questionPool: [Question]
     var averageScore: Float
     
-    init(name: String, description: String, questionPool: [Question], averageScore: Float = 0.0) {
+    init(name: String, image: UIImage, description: String, questionPool: [Question], averageScore: Float = 0.0) {
         self.name = name
+        self.image = image
         self.description = description
         self.questionPool = questionPool
         self.averageScore = averageScore

@@ -14,19 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        var topic = Topic(name: "Sports", description:
-            "something", questionPool: [])
-        var topics: [Topic] = []
-        topics.append(topic)
-        
-        topic = Topic(name: "Politics", description: "something", questionPool: [])
-        topics.append(topic)
-        
-        topic = Topic(name: "Entertainment", description: "something", questionPool: [])
-        topics.append(topic)
-        
-        var game = Game(topics:topics)
-        
+         
     }
 
     override func didReceiveMemoryWarning() {
