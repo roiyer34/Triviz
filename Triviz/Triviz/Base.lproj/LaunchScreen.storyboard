@@ -19,18 +19,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Triviz" translatesAutoresizingMaskIntoConstraints="NO" id="F2d-Wq-f1U">
-                                <rect key="frame" x="-5" y="113" width="410" height="354.5"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Triviz" translatesAutoresizingMaskIntoConstraints="NO" id="JuN-8R-APp">
+                                <rect key="frame" x="-186" y="45" width="748" height="578"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="F2d-Wq-f1U" secondAttribute="height" multiplier="429:371" id="RdZ-Fe-PBb"/>
+                                    <constraint firstAttribute="width" secondItem="JuN-8R-APp" secondAttribute="height" multiplier="507:355" id="Uwx-hU-TKt"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="F2d-Wq-f1U" secondAttribute="trailing" constant="-30" id="WAY-h7-bPg"/>
-                            <constraint firstItem="F2d-Wq-f1U" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="93" id="msJ-Pm-kiG"/>
-                            <constraint firstItem="F2d-Wq-f1U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-5" id="r4o-Z2-68Y"/>
+                            <constraint firstItem="JuN-8R-APp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="l7O-Qi-hFz"/>
+                            <constraint firstItem="JuN-8R-APp" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="r71-Wq-Hu4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

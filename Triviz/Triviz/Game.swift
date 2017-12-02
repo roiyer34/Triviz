@@ -19,10 +19,9 @@ class Game {
     var pickedTopic: Int
     var score: Float
     
-    init(topics: [Topic], pickedTopic: Int, score: Float){
+    init(topics: [Topic], pickedTopic: Int = 0, score: Float = 0.0){
         self.topics = topics
         self.pickedTopic = pickedTopic
         self.score = score
     }
 }
-
