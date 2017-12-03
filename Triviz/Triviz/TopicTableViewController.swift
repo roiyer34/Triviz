@@ -125,7 +125,17 @@ class TopicTableViewController: UITableViewController {
         
         let questionFifty = Question(question: "Throwback question! Which video game was the first fps.", arrayOfAnswers: ["Wolfenstein","Doom","Quake","Maze War"], learnMore: "https://www.polygon.com/features/2015/5/21/8627231/the-first-first-person-shooter", correctAnswer: 3)
         
-        /*let questionFiftyOne = Question(question: <#T##String#>, arrayOfAnswers: <#T##[String]#>, learnMore: <#T##String#>, correctAnswer: <#T##Int#>)*/
+        let questionFiftyOne = Question(question: "Who plays Donald Trump on staurday night live?", arrayOfAnswers: ["Mikey Day","Kate McKinnon","Alex Baldwin","Aziz Ansari"], learnMore: "https://mic.com/articles/155471/who-plays-donald-trump-on-snl-here-s-a-preview-of-the-show-s-election-coverage#.htx7cgVJT", correctAnswer: 2)
+        
+        let questionFiftyTwo = Question(question: "Which has been turned into a broadway show and started running on December 4?", arrayOfAnswers: ["Spongebob Squarepants","Ninjago","Mickey Mouse","Duck Tales"], learnMore: "https://www.nytimes.com/2017/11/30/theater/whats-new-in-nyc-theater.html?rref=collection%2Fspotlightcollection%2Farts-listings&action=click&contentCollection=arts&region=rank&module=package&version=highlights&contentPlacement=2&pgtype=collection", correctAnswer: 0)
+        
+        let questionFiftyThree = Question(question: "Which is not one of the names of the 3 nephews in the 2017 reboot of the tv show Ducktales?", arrayOfAnswers: ["Huey","Louie","Dewey","Webey"], learnMore: "http://disneyxd.disney.com/ducktales", correctAnswer: 3)
+        
+        let questionFiftyFour = Question(question: "What videogames are being played professionaly in australia in big tournaments in the month of December?", arrayOfAnswers: ["PUBG and Starcraft 2","Overwatch and Doom","Overwatch and Mario Cart 8","Starwars Battlefront 2 and Call of Duty WW2"], learnMore: "The information on this page could change. http://www.ign.com/articles/2017/10/12/ign-esports-whats-coming-up-in-hearthstone-cod-smite-dota-2-and-more", correctAnswer: 0)
+        
+        let questionFiftyFive = Question(question: "Which awards ceremony is being held this month?", arrayOfAnswers: ["The Emmys","The Oscars","The Kenedey Center Honors","The iHeart Radio Music Festival"], learnMore: "https://www.washingtonpost.com/entertainment/the-latest-kennedy-honors-held-without-the-trumps/2017/12/03/d75aa906-d87f-11e7-a241-0848315642d0_story.html?utm_term=.65a96c0a4cb5", correctAnswer: 2)
+        
+        let questionFiftySix = Question(question: "Which movie is being screened and includeds Denzel Washington?", arrayOfAnswers: ["Wonder","Roman J. Israel Esq.","Coco","The Equalizer 2"], learnMore: "https://www.washingtonpost.com/goingoutguide/movies/coco-and-other-movies-to-watch-with-your-kids/2017/11/22/6985fdde-cae4-11e7-b0cf-7689a9f2d84e_story.html?utm_term=.2db85c5a5782", correctAnswer: 1)
         
         var topic = Topic(name: "Sports", image: UIImage(named: "Sports")!, description:
             "Think you know all about the sports world? This topic inclues questions about recent fixtures and matches from a variety of sports, from football to futbol", questionPool: [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen, questionEleven, questionTweleve, questionThirteen, questionFourteen, questionFifteen, questionSixteen, questionSeventeen, questionEighteen, questionNineteen, questionTwenty])
