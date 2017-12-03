@@ -26,7 +26,7 @@ class TopicTableViewController: UITableViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let questionOne = Question(question: "Who scored the winning goal in the 94th minute to tie up the game against Borussia Dortmund from a 4-0 deposit at halftime", arrayOfAnswers: ["Naldo", "Harit", "Di Santo", "Meyer"],  learnMore: "http://www.bbc.com/sport/football/42115328", correctAnswer: 0)
         
-        let questionTwo = Question(question: "Which team beat Burnley 1-0 to rise to fourth place in the EPL table", arrayOfAnswers: ["Manchester City","Southampton", "Arsenal", "Tottenham Hotspur"], learnMore: "http://www.telegraph.co.uk/football/2017/11/26/burnley-vs-arsenal-premier-league-live-score-updates/", correctAnswer: 2)
+        let questionTwo = Question(question: "Which team beat Burnley 1-0 to rise to fourth place in the EPL table", arrayOfAnswers: ["ManchestletCity","Southampton", "Arsenal", "Tottenham Hotspur"], learnMore: "http://www.telegraph.co.uk/football/2017/11/26/burnley-vs-arsenal-premier-league-live-score-updates/", correctAnswer: 2)
         
         let questionThree = Question(question: "How many goals were scored by Real Madrid against Malaga", arrayOfAnswers: ["3","5", "2", "1"], learnMore: "http://www.bbc.com/sport/football/42115314", correctAnswer: 0)
         
@@ -105,15 +105,37 @@ class TopicTableViewController: UITableViewController {
         
         let questionForty = Question(question: "Throwback Question! Who was the president during 9/11?", arrayOfAnswers: ["George Bush","Barack Obama","Richard Nixon","Bill Clinton"], learnMore: "http://www.history.com/topics/9-11-attack", correctAnswer: 0)
         
+        let questionFortyOne = Question(question: "Throwback Question! What is the highest metacritic rating for a video game of all time out of 100?", arrayOfAnswers: ["98","100","99","96"], learnMore: "https://www.metacritic.com/browse/games.score/metascore/all/all/filtered?sort=desc", correctAnswer: 2)
+        
+        let questionFortyTwo = Question(question: "Which movie in theaters is based on a book published in 2012 by the author R.J. Palacio?", arrayOfAnswers: ["Wonder","Justice League","Roman J. Israel, Esq.","The Star"], learnMore: "http://www.wonder.movie/?story", correctAnswer: 0)
+        
+        let questionFourtyThree = Question(question: "Which Netfix original series has been renewed for a season three?", arrayOfAnswers: ["Black Mirror","Stranger Things","The Good Place","Master of None"], learnMore: "http://www.cnn.com/2017/12/01/entertainment/stranger-things-season-3/index.html", correctAnswer: 1)
+        
+        let questionFourtyFour = Question(question: "Which movie trailer has broke the record for most views in a day?", arrayOfAnswers: ["Black Panther","Star Wars the Last Jedi","Avengers: Infinity War","The Greatest Showman"], learnMore: "http://ew.com/movies/2017/11/30/avengers-infinity-war-trailer-record/", correctAnswer: 2)
+        
+        let questionFourtyFive = Question(question: "Which artist released the album Songs of Experience?", arrayOfAnswers: ["Taylor Swift","Maroon 5","Shovels and Rope","U2"], learnMore: "http://ew.com/music/2017/12/01/u2-songs-of-experience-ew-review/", correctAnswer: 3)
+        
+        let questionFourtySix = Question(question: "Which superhero lost his main weapon in his latest movie?", arrayOfAnswers: ["Thor","Aquaman","Batman","Wonder Woman"], learnMore: "https://www.inverse.com/article/35945-thor-ragnarok-mjolnir-destroyed-hela-powers-lightning-thunder", correctAnswer: 0)
+        
+        let questionFourtySeven = Question(question: "What video game has the highest metacritic rating this year", arrayOfAnswers: ["Super Mario Odyssey","Legend of Zelda Breath of the Wild for Wii U","Divinity Original Sin 2","Persona 5"], learnMore: "http://www.metacritic.com/browse/games/score/metascore/year/all/filtered?sort=desc", correctAnswer: 0)
+        
+        let questionFourtyEight = Question(question: "Which Computer Video Game has the highest metacritic rating of this year?", arrayOfAnswers: ["Legend of Zelda: Breath of the Wild","Divinity Original Sin 2","Destiny 2","Overwatch"], learnMore: "http://www.metacritic.com/browse/games/score/metascore/year/pc/filtered?sort=desc", correctAnswer: 1)
+        
+        let questionFourtyNine = Question(question: "Which video console is the best selling of 2017 so far", arrayOfAnswers: ["Xbox One","Playstation Four","Xbox One X","Nintendo Switch"], learnMore: "http://www.ign.com/articles/2017/10/19/nintendo-switch-was-the-top-selling-console-in-the-us-in-september", correctAnswer: 3)
+        
+        let questionFifty = Question(question: "Throwback question! Which video game was the first fps.", arrayOfAnswers: ["Wolfenstein","Doom","Quake","Maze War"], learnMore: "https://www.polygon.com/features/2015/5/21/8627231/the-first-first-person-shooter", correctAnswer: 3)
+        
+        /*let questionFiftyOne = Question(question: <#T##String#>, arrayOfAnswers: <#T##[String]#>, learnMore: <#T##String#>, correctAnswer: <#T##Int#>)*/
+        
         var topic = Topic(name: "Sports", image: UIImage(named: "Sports")!, description:
-            "Think you know all about the sports world? This topic inclues questions about recent fixtures and matches from a variety of sports, from futbol to football", questionPool: [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen, questionEleven, questionTweleve, questionThirteen, questionFourteen, questionFifteen, questionSixteen, questionSeventeen, questionEighteen, questionNineteen, questionTwenty])
+            "Think you know all about the sports world? This topic inclues questions about recent fixtures and matches from a variety of sports, from football to futbol", questionPool: [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen, questionEleven, questionTweleve, questionThirteen, questionFourteen, questionFifteen, questionSixteen, questionSeventeen, questionEighteen, questionNineteen, questionTwenty])
         var topics: [Topic] = []
         topics.append(topic)
         
-        topic = Topic(name: "Politics", image: UIImage(named: "Politics")!, description: "description", questionPool: [questionTwentyOne, questionTwentyTwo, questionTwentyThree, questionTwentyFour, questionTwentyFive, questionTwentySix, questionTwentySeven, questionTwentyEight, questionTwentyNine, questionThirty, questionThirtyOne, questionThirtyTwo, questionThirtyThree, questionThirtyFour, questionThirtyFive, questionThirtySix, questionThirtySeven, questionThirtyEight, questionThirtyNine, questionForty])
+        topic = Topic(name: "Politics", image: UIImage(named: "Politics")!, description: "From Russia to Brasil, this quiz test your knowledge on world politics.", questionPool: [questionTwentyOne, questionTwentyTwo, questionTwentyThree, questionTwentyFour, questionTwentyFive, questionTwentySix, questionTwentySeven, questionTwentyEight, questionTwentyNine, questionThirty, questionThirtyOne, questionThirtyTwo, questionThirtyThree, questionThirtyFour, questionThirtyFive, questionThirtySix, questionThirtySeven, questionThirtyEight, questionThirtyNine, questionForty])
         topics.append(topic)
         
-        topic = Topic(name: "Entertainment", image: UIImage(named: "Entertainment")!, description: "something", questionPool: [])
+        topic = Topic(name: "Entertainment", image: UIImage(named: "Entertainment")!, description: "Think you know all the new hits and games? This quiz tests your knowledge on all the recent additions to the entertainment world.", questionPool: [])
         topics.append(topic)
         
         var game = Game(topics:topics)
