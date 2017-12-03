@@ -21,13 +21,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
-    @IBAction func buttonSportsClicked(_ sender: Any) {
-    }
-    @IBAction func buttonPoliticsClicked(_ sender: Any) {
-    }
-    @IBAction func buttonEntertainmentClicked(_ sender: Any) {
-    }
 }
 
