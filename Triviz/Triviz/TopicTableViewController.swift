@@ -113,10 +113,10 @@ class TopicTableViewController: UITableViewController {
         topic = Topic(name: "Politics", image: UIImage(named: "Politics")!, description: "From Russia to Brazil, this quiz tests your knowledge on world politics.", questionPool: [questionTwentyOne, questionTwentyTwo, questionTwentyThree, questionTwentyFour, questionTwentyFive, questionTwentySix, questionTwentySeven, questionTwentyEight, questionTwentyNine, questionThirty, questionThirtyOne, questionThirtyTwo, questionThirtyThree, questionThirtyFour, questionThirtyFive, questionThirtySix, questionThirtySeven, questionThirtyEight, questionThirtyNine, questionForty])
         topics.append(topic)
         
-        topic = Topic(name: "Entertainment", image: UIImage(named: "Entertainment")!, description: "something", questionPool: [])
+        topic = Topic(name: "Entertainment", image: UIImage(named: "Entertainment")!, description: "Think you know all the new hits and games? This quiz tests your knowledge on all the recent additions to the entertainment world.", questionPool: [])
         topics.append(topic)
         
-        var game = Game(topics:topics)
+        let game = Game(topics:topics)
         self.topics = game.topics
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
