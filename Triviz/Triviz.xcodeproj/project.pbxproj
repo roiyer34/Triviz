@@ -19,6 +19,7 @@
 		1CFCC2D11FC4F33300B9391F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC2D01FC4F33300B9391F /* Game.swift */; };
 		1CFCC3111FD242D000B9391F /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC3101FD242D000B9391F /* TopicTableViewCell.swift */; };
 		1CFCC3131FD249C000B9391F /* TopicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC3121FD249C000B9391F /* TopicTableViewController.swift */; };
+		1CFCC3151FD25DFD00B9391F /* TopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC3141FD25DFD00B9391F /* TopicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		1CFCC2D01FC4F33300B9391F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		1CFCC3101FD242D000B9391F /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
 		1CFCC3121FD249C000B9391F /* TopicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewController.swift; sourceTree = "<group>"; };
+		1CFCC3141FD25DFD00B9391F /* TopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				1CFCC3101FD242D000B9391F /* TopicTableViewCell.swift */,
 				1CFCC3121FD249C000B9391F /* TopicTableViewController.swift */,
 				1CFCC2A21FC1F81200B9391F /* Main.storyboard */,
+				1CFCC3141FD25DFD00B9391F /* TopicViewController.swift */,
 				1CFCC2A51FC1F81200B9391F /* Assets.xcassets */,
 				1CFCC2A71FC1F81200B9391F /* LaunchScreen.storyboard */,
 				1CFCC2AA1FC1F81200B9391F /* Info.plist */,
@@ -276,6 +279,7 @@
 			files = (
 				1CFCC2D11FC4F33300B9391F /* Game.swift in Sources */,
 				1CFCC3111FD242D000B9391F /* TopicTableViewCell.swift in Sources */,
+				1CFCC3151FD25DFD00B9391F /* TopicViewController.swift in Sources */,
 				1CFCC3131FD249C000B9391F /* TopicTableViewController.swift in Sources */,
 				1CFCC2A11FC1F81200B9391F /* ViewController.swift in Sources */,
 				1CFCC2CF1FC4E8D300B9391F /* Topic.swift in Sources */,
