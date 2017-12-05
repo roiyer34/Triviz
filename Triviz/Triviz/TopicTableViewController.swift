@@ -26,7 +26,7 @@ class TopicTableViewController: UITableViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let questionOne = Question(question: "Who scored the winning goal in the 94th minute to tie up the game against Borussia Dortmund from a 4-0 deposit at halftime", arrayOfAnswers: ["Naldo", "Harit", "Di Santo", "Meyer"],  learnMore: "http://www.bbc.com/sport/football/42115328", correctAnswer: 0)
         
-        let questionTwo = Question(question: "Which team beat Burnley 1-0 to rise to fourth place in the EPL table", arrayOfAnswers: ["Manchester City","Southampton", "Arsenal", "Tottenham Hotspur"], learnMore: "http://www.telegraph.co.uk/football/2017/11/26/burnley-vs-arsenal-premier-league-live-score-updates/", correctAnswer: 2)
+        let questionTwo = Question(question: "Which team beat Burnley 1-0 to rise to fourth place in the EPL table", arrayOfAnswers: ["ManchestletCity","Southampton", "Arsenal", "Tottenham Hotspur"], learnMore: "http://www.telegraph.co.uk/football/2017/11/26/burnley-vs-arsenal-premier-league-live-score-updates/", correctAnswer: 2)
         
         let questionThree = Question(question: "How many goals were scored by Real Madrid against Malaga", arrayOfAnswers: ["3","5", "2", "1"], learnMore: "http://www.bbc.com/sport/football/42115314", correctAnswer: 0)
         
@@ -107,15 +107,47 @@ class TopicTableViewController: UITableViewController {
         
         let questionSixty = Question(question: "In the movie Thor Ragnarok, Bruce Banner turns into what supernatural character when he becomes angry?", arrayOfAnswers: ["Batman","Thor","Hulk","The Human Torch"], learnMore: "http://www.imdb.com/title/tt3501632/", correctAnswer: 2)
         
+        let questionFortyOne = Question(question: "Throwback Question! What is the highest metacritic rating for a video game of all time out of 100?", arrayOfAnswers: ["98","100","99","96"], learnMore: "https://www.metacritic.com/browse/games.score/metascore/all/all/filtered?sort=desc", correctAnswer: 2)
+        
+        let questionFortyTwo = Question(question: "Which movie in theaters is based on a book published in 2012 by the author R.J. Palacio?", arrayOfAnswers: ["Wonder","Justice League","Roman J. Israel, Esq.","The Star"], learnMore: "http://www.wonder.movie/?story", correctAnswer: 0)
+        
+        let questionFourtyThree = Question(question: "Which Netfix original series has been renewed for a season three?", arrayOfAnswers: ["Black Mirror","Stranger Things","The Good Place","Master of None"], learnMore: "http://www.cnn.com/2017/12/01/entertainment/stranger-things-season-3/index.html", correctAnswer: 1)
+        
+        let questionFourtyFour = Question(question: "Which movie trailer has broke the record for most views in a day?", arrayOfAnswers: ["Black Panther","Star Wars the Last Jedi","Avengers: Infinity War","The Greatest Showman"], learnMore: "http://ew.com/movies/2017/11/30/avengers-infinity-war-trailer-record/", correctAnswer: 2)
+        
+        let questionFourtyFive = Question(question: "Which artist released the album Songs of Experience?", arrayOfAnswers: ["Taylor Swift","Maroon 5","Shovels and Rope","U2"], learnMore: "http://ew.com/music/2017/12/01/u2-songs-of-experience-ew-review/", correctAnswer: 3)
+        
+        let questionFourtySix = Question(question: "Which superhero lost his main weapon in his latest movie?", arrayOfAnswers: ["Thor","Aquaman","Batman","Wonder Woman"], learnMore: "https://www.inverse.com/article/35945-thor-ragnarok-mjolnir-destroyed-hela-powers-lightning-thunder", correctAnswer: 0)
+        
+        let questionFourtySeven = Question(question: "What video game has the highest metacritic rating this year", arrayOfAnswers: ["Super Mario Odyssey","Legend of Zelda Breath of the Wild for Wii U","Divinity Original Sin 2","Persona 5"], learnMore: "http://www.metacritic.com/browse/games/score/metascore/year/all/filtered?sort=desc", correctAnswer: 0)
+        
+        let questionFourtyEight = Question(question: "Which Computer Video Game has the highest metacritic rating of this year?", arrayOfAnswers: ["Legend of Zelda: Breath of the Wild","Divinity Original Sin 2","Destiny 2","Overwatch"], learnMore: "http://www.metacritic.com/browse/games/score/metascore/year/pc/filtered?sort=desc", correctAnswer: 1)
+        
+        let questionFourtyNine = Question(question: "Which video console is the best selling of 2017 so far", arrayOfAnswers: ["Xbox One","Playstation Four","Xbox One X","Nintendo Switch"], learnMore: "http://www.ign.com/articles/2017/10/19/nintendo-switch-was-the-top-selling-console-in-the-us-in-september", correctAnswer: 3)
+        
+        let questionFifty = Question(question: "Throwback question! Which video game was the first fps.", arrayOfAnswers: ["Wolfenstein","Doom","Quake","Maze War"], learnMore: "https://www.polygon.com/features/2015/5/21/8627231/the-first-first-person-shooter", correctAnswer: 3)
+        
+        let questionFiftyOne = Question(question: "Who plays Donald Trump on staurday night live?", arrayOfAnswers: ["Mikey Day","Kate McKinnon","Alex Baldwin","Aziz Ansari"], learnMore: "https://mic.com/articles/155471/who-plays-donald-trump-on-snl-here-s-a-preview-of-the-show-s-election-coverage#.htx7cgVJT", correctAnswer: 2)
+        
+        let questionFiftyTwo = Question(question: "Which has been turned into a broadway show and started running on December 4?", arrayOfAnswers: ["Spongebob Squarepants","Ninjago","Mickey Mouse","Duck Tales"], learnMore: "https://www.nytimes.com/2017/11/30/theater/whats-new-in-nyc-theater.html?rref=collection%2Fspotlightcollection%2Farts-listings&action=click&contentCollection=arts&region=rank&module=package&version=highlights&contentPlacement=2&pgtype=collection", correctAnswer: 0)
+        
+        let questionFiftyThree = Question(question: "Which is not one of the names of the 3 nephews in the 2017 reboot of the tv show Ducktales?", arrayOfAnswers: ["Huey","Louie","Dewey","Webey"], learnMore: "http://disneyxd.disney.com/ducktales", correctAnswer: 3)
+        
+        let questionFiftyFour = Question(question: "What videogames are being played professionaly in australia in big tournaments in the month of December?", arrayOfAnswers: ["PUBG and Starcraft 2","Overwatch and Doom","Overwatch and Mario Cart 8","Starwars Battlefront 2 and Call of Duty WW2"], learnMore: "The information on this page could change. http://www.ign.com/articles/2017/10/12/ign-esports-whats-coming-up-in-hearthstone-cod-smite-dota-2-and-more", correctAnswer: 0)
+        
+        let questionFiftyFive = Question(question: "Which awards ceremony is being held this month?", arrayOfAnswers: ["The Emmys","The Oscars","The Kenedey Center Honors","The iHeart Radio Music Festival"], learnMore: "https://www.washingtonpost.com/entertainment/the-latest-kennedy-honors-held-without-the-trumps/2017/12/03/d75aa906-d87f-11e7-a241-0848315642d0_story.html?utm_term=.65a96c0a4cb5", correctAnswer: 2)
+        
+        let questionFiftySix = Question(question: "Which movie is being screened and includeds Denzel Washington?", arrayOfAnswers: ["Wonder","Roman J. Israel Esq.","Coco","The Equalizer 2"], learnMore: "https://www.washingtonpost.com/goingoutguide/movies/coco-and-other-movies-to-watch-with-your-kids/2017/11/22/6985fdde-cae4-11e7-b0cf-7689a9f2d84e_story.html?utm_term=.2db85c5a5782", correctAnswer: 1)
+        
         var topic = Topic(name: "Sports", image: UIImage(named: "Sports")!, description:
-            "Think you know all about the sports world? This topic inclues questions about recent fixtures and matches from a variety of sports, from futbol to football", questionPool: [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen, questionEleven, questionTweleve, questionThirteen, questionFourteen, questionFifteen, questionSixteen, questionSeventeen, questionEighteen, questionNineteen, questionTwenty])
+            "Think you know all about the sports world? This topic inclues questions about recent fixtures and matches from a variety of sports, from football to futbol", questionPool: [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen, questionEleven, questionTweleve, questionThirteen, questionFourteen, questionFifteen, questionSixteen, questionSeventeen, questionEighteen, questionNineteen, questionTwenty])
         var topics: [Topic] = []
         topics.append(topic)
         
-        topic = Topic(name: "Politics", image: UIImage(named: "Politics")!, description: "From Russia to Brazil, this quiz tests your knowledge on world politics.", questionPool: [questionTwentyOne, questionTwentyTwo, questionTwentyThree, questionTwentyFour, questionTwentyFive, questionTwentySix, questionTwentySeven, questionTwentyEight, questionTwentyNine, questionThirty, questionThirtyOne, questionThirtyTwo, questionThirtyThree, questionThirtyFour, questionThirtyFive, questionThirtySix, questionThirtySeven, questionThirtyEight, questionThirtyNine, questionForty])
+        topic = Topic(name: "Politics", image: UIImage(named: "Politics")!, description: "From Russia to Brasil, this quiz test your knowledge on world politics.", questionPool: [questionTwentyOne, questionTwentyTwo, questionTwentyThree, questionTwentyFour, questionTwentyFive, questionTwentySix, questionTwentySeven, questionTwentyEight, questionTwentyNine, questionThirty, questionThirtyOne, questionThirtyTwo, questionThirtyThree, questionThirtyFour, questionThirtyFive, questionThirtySix, questionThirtySeven, questionThirtyEight, questionThirtyNine, questionForty])
         topics.append(topic)
         
-        topic = Topic(name: "Entertainment", image: UIImage(named: "Entertainment")!, description: "Think you know all the new hits and games? This quiz tests your knowledge on all the recent additions to the entertainment world.", questionPool: [questionSixty, ])
+        topic = Topic(name: "Entertainment", image: UIImage(named: "Entertainment")!, description: "Think you know all the new hits and games? This quiz tests your knowledge on all the recent additions to the entertainment world.", questionPool: [])
         topics.append(topic)
         
         let game = Game(topics:topics)
