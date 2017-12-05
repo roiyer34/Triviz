@@ -23,7 +23,7 @@ class Topic {
     var questionPool: [Question]
     var averageScore: Float
     
-    init(name: String, image: UIImage, description: String, questionPool: [Question], averageScore: Float = 0.0) {
+    init(name: String = "", image: UIImage = UIImage(), description: String = "", questionPool: [Question] = [], averageScore: Float = 0.0) {
         self.name = name
         self.image = image
         self.description = description
