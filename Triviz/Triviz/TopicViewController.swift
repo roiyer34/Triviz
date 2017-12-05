@@ -11,6 +11,9 @@ import UIKit
 class TopicViewController: UIViewController {
     
     var pickedTopic: Topic = Topic()
+    @IBOutlet var topicLabel: UITextField!
+    @IBOutlet var descriptionLabel: UITextView!
+    @IBOutlet var imageLabel: UIImageView!
     
     
     override func viewDidLoad() {
@@ -32,13 +35,6 @@ class TopicViewController: UIViewController {
     
     @IBAction func startQuizButtonClicked(_ sender: Any) {
         let questionVC = storyboard?.instantiateViewController(withIdentifier: "questionPage") as! QuestionViewController
-        questionVC.topic = pickedTopic
-        navigationController?.pushViewController(questionVC, animated: true)
-    }
-    
-    @IBAction func getToDescription(_ sender: Any) {
-        let questionVC =
-            storyboard?.instantiateViewController(withIdentifier: "decriptionPage") as! QuestionViewController
         questionVC.topic = pickedTopic
         navigationController?.pushViewController(questionVC, animated: true)
     }

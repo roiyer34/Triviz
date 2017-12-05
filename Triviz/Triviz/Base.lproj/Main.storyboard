@@ -147,6 +147,9 @@
                         <viewLayoutGuide key="safeArea" id="BbQ-7V-cf1"/>
                     </view>
                     <connections>
+                        <outlet property="descriptionLabel" destination="FpC-il-Ve6" id="jli-VR-K3q"/>
+                        <outlet property="imageLabel" destination="bj7-Q5-TB5" id="XV7-M2-B4J"/>
+                        <outlet property="topicLabel" destination="B7U-up-iwK" id="fZ9-Vm-2Vl"/>
                         <segue destination="pve-Dz-SXf" kind="showDetail" id="WMY-fu-vjH"/>
                     </connections>
                 </viewController>
