@@ -103,7 +103,9 @@ class TopicTableViewController: UITableViewController {
         let questionThirtyNine = Question(question:
         "Democrat Doug Jones is currently running for state governer in which state?", arrayOfAnswers: ["Alabama","Illinois","Alaska","Oregon"], learnMore: "https://www.washingtonpost.com/politics/?utm_term=.9ed4aab3c2a9", correctAnswer: 0)
         
-        let questionForty = Question(question: "Throwback Question! Who was the president during 9/11?", arrayOfAnswers: ["George Bush","Barack Obama","Richard Nixon","Bill Clinton"], learnMore: "http://www.history.com/topics/9-11-attack", correctAnswer: 0)
+        let questionForty = Question(question: "Throwback Question! Who was the president during the 9/11 attacks?", arrayOfAnswers: ["George Bush","Barack Obama","Richard Nixon","Bill Clinton"], learnMore: "http://www.history.com/topics/9-11-attack", correctAnswer: 0)
+        
+        let questionSixty = Question(question: "In the movie Thor Ragnarok, Bruce Banner turns into what supernatural character when he becomes angry?", arrayOfAnswers: ["Batman","Thor","Hulk","The Human Torch"], learnMore: "http://www.imdb.com/title/tt3501632/", correctAnswer: 2)
         
         let questionFortyOne = Question(question: "Throwback Question! What is the highest metacritic rating for a video game of all time out of 100?", arrayOfAnswers: ["98","100","99","96"], learnMore: "https://www.metacritic.com/browse/games.score/metascore/all/all/filtered?sort=desc", correctAnswer: 2)
         
@@ -148,7 +150,7 @@ class TopicTableViewController: UITableViewController {
         topic = Topic(name: "Entertainment", image: UIImage(named: "Entertainment")!, description: "Think you know all the new hits and games? This quiz tests your knowledge on all the recent additions to the entertainment world.", questionPool: [])
         topics.append(topic)
         
-        var game = Game(topics:topics)
+        let game = Game(topics:topics)
         self.topics = game.topics
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -156,7 +158,8 @@ class TopicTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-
+    @IBOutlet var descriptionPage: UIButton!
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

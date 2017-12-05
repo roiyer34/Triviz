@@ -9,11 +9,16 @@
 import UIKit
 
 class TopicViewController: UIViewController {
-
+    
+    var pickedTopic: Topic = Topic()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+       
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,9 +27,24 @@ class TopicViewController: UIViewController {
     }
     
 
-    /*
+    
     // MARK: - Navigation
-
+    
+    @IBAction func startQuizButtonClicked(_ sender: Any) {
+        let questionVC = storyboard?.instantiateViewController(withIdentifier: "questionPage") as! QuestionViewController
+        questionVC.topic = pickedTopic
+        navigationController?.pushViewController(questionVC, animated: true)
+    }
+    
+    @IBAction func getToDescription(_ sender: Any) {
+        let questionVC =
+            storyboard?.instantiateViewController(withIdentifier: "decriptionPage") as! QuestionViewController
+        questionVC.topic = pickedTopic
+        navigationController?.pushViewController(questionVC, animated: true)
+    }
+    
+    
+    /*
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.

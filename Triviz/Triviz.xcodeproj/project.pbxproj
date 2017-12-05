@@ -20,6 +20,8 @@
 		1CFCC3111FD242D000B9391F /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC3101FD242D000B9391F /* TopicTableViewCell.swift */; };
 		1CFCC3131FD249C000B9391F /* TopicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC3121FD249C000B9391F /* TopicTableViewController.swift */; };
 		1CFCC3151FD25DFD00B9391F /* TopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC3141FD25DFD00B9391F /* TopicViewController.swift */; };
+		799EBF4C1FD46CCA000A9061 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799EBF4B1FD46CCA000A9061 /* QuestionViewController.swift */; };
+		799EBF4E1FD4773C000A9061 /* ToTheDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799EBF4D1FD4773C000A9061 /* ToTheDescription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		1CFCC3101FD242D000B9391F /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
 		1CFCC3121FD249C000B9391F /* TopicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewController.swift; sourceTree = "<group>"; };
 		1CFCC3141FD25DFD00B9391F /* TopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicViewController.swift; sourceTree = "<group>"; };
+		799EBF4B1FD46CCA000A9061 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		799EBF4D1FD4773C000A9061 /* ToTheDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToTheDescription.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +124,9 @@
 				1CFCC2AA1FC1F81200B9391F /* Info.plist */,
 				1CFCC2CC1FC4E37A00B9391F /* Question.swift */,
 				1CFCC2CE1FC4E8D300B9391F /* Topic.swift */,
+				799EBF4D1FD4773C000A9061 /* ToTheDescription.swift */,
 				1CFCC2D01FC4F33300B9391F /* Game.swift */,
+				799EBF4B1FD46CCA000A9061 /* QuestionViewController.swift */,
 			);
 			path = Triviz;
 			sourceTree = "<group>";
@@ -285,6 +291,8 @@
 				1CFCC2CF1FC4E8D300B9391F /* Topic.swift in Sources */,
 				1CFCC2CD1FC4E37A00B9391F /* Question.swift in Sources */,
 				1CFCC29F1FC1F81200B9391F /* AppDelegate.swift in Sources */,
+				799EBF4C1FD46CCA000A9061 /* QuestionViewController.swift in Sources */,
+				799EBF4E1FD4773C000A9061 /* ToTheDescription.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
