@@ -13,13 +13,17 @@ class TopicViewController: UIViewController {
     var pickedTopic: Topic = Topic()
     @IBOutlet var topicLabel: UITextField!
     @IBOutlet var descriptionLabel: UITextView!
-    @IBOutlet var imageLabel: UIImageView!
+    @IBOutlet var imageView: UIImageView!
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        topicLabel.text = pickedTopic.name
+        descriptionLabel.text = pickedTopic.description
+        imageView.image = pickedTopic.image
+        
         
        
     }

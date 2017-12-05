@@ -11,9 +11,21 @@ import UIKit
 class QuestionViewController: UIViewController {
     var topic: Topic = Topic()
 
+    @IBOutlet var topicLabel: UILabel!
+    @IBOutlet var questionLabel: UILabel!
+    @IBOutlet var answerChoice1Button: UIButton!
+    @IBOutlet var answerChoice2Button: UIButton!
+    @IBOutlet var answerChoice3Button: UIButton!
+    @IBOutlet var answerChoice4Button: UIButton!
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+       
+       
         // Do any additional setup after loading the view.
     }
 

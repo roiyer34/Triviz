@@ -149,9 +149,8 @@
                     </view>
                     <connections>
                         <outlet property="descriptionLabel" destination="FpC-il-Ve6" id="jli-VR-K3q"/>
-                        <outlet property="imageLabel" destination="bj7-Q5-TB5" id="XV7-M2-B4J"/>
+                        <outlet property="imageView" destination="bj7-Q5-TB5" id="6us-8U-aGa"/>
                         <outlet property="topicLabel" destination="B7U-up-iwK" id="fZ9-Vm-2Vl"/>
-                        <segue destination="pve-Dz-SXf" kind="showDetail" id="WMY-fu-vjH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rnR-Xv-E7s" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -260,8 +259,14 @@
                         <viewLayoutGuide key="safeArea" id="kPn-2p-EiS"/>
                     </view>
                     <connections>
+                        <outlet property="answerChoice1Button" destination="8JK-zZ-MCW" id="qvS-bk-cJb"/>
+                        <outlet property="answerChoice2Button" destination="o2d-yL-6p3" id="Mff-nx-Qav"/>
+                        <outlet property="answerChoice3Button" destination="GAn-Yx-aSg" id="fr8-l0-Mzt"/>
+                        <outlet property="answerChoice4Button" destination="rVR-rO-oU4" id="gTn-ru-6mG"/>
                         <outlet property="buttonAnswer1" destination="8JK-zZ-MCW" id="2oA-cC-DE2"/>
                         <outlet property="buttonAnswerOne" destination="8JK-zZ-MCW" id="Dy0-Xz-JXr"/>
+                        <outlet property="questionLabel" destination="cLA-C3-Vcg" id="nfy-bN-ysO"/>
+                        <outlet property="topicLabel" destination="7nO-C5-D2z" id="PKq-e2-G9H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="63d-mm-mIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
