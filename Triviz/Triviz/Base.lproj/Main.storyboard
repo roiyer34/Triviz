@@ -73,14 +73,6 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wiX-8q-3Fi">
-                                            <rect key="frame" x="289" y="29" width="46" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Play"/>
-                                            <connections>
-                                                <action selector="getToDescription:" destination="Uod-6b-KL0" eventType="touchUpInside" id="6xc-tP-gTR"/>
-                                            </connections>
-                                        </button>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
@@ -94,12 +86,8 @@
                             <outlet property="delegate" destination="iwj-hq-YrD" id="WKo-5F-ZxA"/>
                         </connections>
                     </tableView>
-                    <connections>
-                        <segue destination="kya-QR-ggG" kind="showDetail" id="dHV-03-3pc"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sRO-DA-GKf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="Uod-6b-KL0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1903.2" y="115.59220389805098"/>
         </scene>
