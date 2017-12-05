@@ -237,5 +237,20 @@ class TopicTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func playButtonClicked(_ sender: Any) {
+        let indexPath = self.tableView.indexPathForSelectedRow
+        if (indexPath == nil) {
+            let alert = UIAlertController(title: "Error 79833", message: "No topic selected, please select a topic", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Okay", style: .default))
+            self.present(alert, animated: true, completion: nil)
+        }
+        let rowIndex = indexPath?.row
+        let pickedTopic = topics[rowIndex!]
+        
+        // Show the TopicViewController
+        let topicVC = storyboard?.instantiateViewController(withIdentifier: "topicPage") as! TopicViewController
+        topicVC.pickedTopic = pickedTopic
+        navigationController?.pushViewController(topicVC, animated: true)
+    }
+    
 }

@@ -86,7 +86,13 @@
                             <outlet property="delegate" destination="iwj-hq-YrD" id="WKo-5F-ZxA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Topics" id="Ufe-cV-LFy" userLabel="Topics"/>
+                    <navigationItem key="navigationItem" title="Topics" id="Ufe-cV-LFy" userLabel="Topics">
+                        <barButtonItem key="rightBarButtonItem" title="Play" id="MOX-G4-OVV">
+                            <connections>
+                                <action selector="playButtonClicked:" destination="iwj-hq-YrD" id="bNc-hV-k9g"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sRO-DA-GKf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -95,7 +101,7 @@
         <!--Topic View Controller-->
         <scene sceneID="6nz-ZW-hFB">
             <objects>
-                <viewController storyboardIdentifier="descriptionPage" id="kya-QR-ggG" customClass="TopicViewController" customModule="Triviz" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="topicPage" id="kya-QR-ggG" customClass="TopicViewController" customModule="Triviz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AJa-h4-avi" customClass="UIWindow">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
