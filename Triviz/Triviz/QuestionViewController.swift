@@ -33,7 +33,8 @@ class QuestionViewController: UIViewController {
         scoreLabel.text = "\(score) / \(total)"
         
         // Pick a question
-        let questionIndex = Int(arc4random_uniform(20))
+        let questionIndex = Int(arc4random_uniform(UInt32(topic.questionPool.count)))
+        print("questionIndex = \(String(questionIndex))")
         question = topic.questionPool[questionIndex]
         questionLabel.text = question.question
         answerChoice1Button.setTitle(question.arrayOfAnswers[0],  for: UIControlState.normal)
@@ -49,26 +50,45 @@ class QuestionViewController: UIViewController {
     }
     
 
-    @IBAction func button1Clicked(_ sender: Any) {
+    func checkAnswer(answerClicked: String) {
+        let correctAnswerString = question.arrayOfAnswers[question.correctAnswer]
+        if(correctAnswerString == answerClicked) {
+            // Correct - Show Green box
+            let alert = UIAlertController(title: "Correct Answer :-D", message: "Way to go!", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Okay", style: .default))
+            self.present(alert, animated: true, completion: nil)
         }
+        else {
+            // Incorrect Answer - Show Red Box
+            let alert = UIAlertController(title: "Incorrect Answer", message: "Better luck next time", preferredStyle: .actionSheet)
+            alert.addAction(UIAlertAction(title: "Okay", style: .default))
+            self.present(alert, animated: true, completion: nil)
+        }
+    }
+    
+    @IBAction func button1Clicked(_ sender: Any) {
+        let answerClicked = answerChoice1Button.titleLabel?.text
+        checkAnswer(answerClicked: answerClicked!)
+        
+    }
     @IBAction func button2Clicked(_ sender: Any) {
+        let answerClicked = answerChoice2Button.titleLabel?.text
+        checkAnswer(answerClicked: answerClicked!)
+
     }
     @IBAction func button3Clicked(_ sender: Any) {
+        let answerClicked = answerChoice3Button.titleLabel?.text
+        checkAnswer(answerClicked: answerClicked!)
+
     }
     
     @IBAction func button4Clicked(_ sender: Any) {
+        let answerClicked = answerChoice4Button.titleLabel?.text
+        checkAnswer(answerClicked: answerClicked!)
+
     }
     
-    func checkAnswer(answerClicked: String){
-        let correctAnswerString = question.arrayOfAnswers[question.correctAnswer]
-        if(correctAnswerString == answerClicked) {
-            // Correct
-            //UIAlertController
-        }
-        else {
-            // Incorrect Answer
-        }
-    }
+    
     
     /*
     // MARK: - Navigation

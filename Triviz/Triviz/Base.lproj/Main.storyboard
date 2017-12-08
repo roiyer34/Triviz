@@ -161,17 +161,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8JK-zZ-MCW">
-                                <rect key="frame" x="8" y="431" width="170" height="109"/>
-                                <color key="backgroundColor" red="0.56862745098039214" green="0.96078431372549022" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="button1Clicked:" destination="pve-Dz-SXf" eventType="touchUpInside" id="Qyr-Bs-sK4"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="rVR-rO-oU4">
                                 <rect key="frame" x="186" y="548" width="181" height="109"/>
                                 <color key="backgroundColor" red="0.76078431369999999" green="0.90980392160000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -231,20 +220,28 @@
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="37"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hV-cX-bgx">
+                                <rect key="frame" x="16" y="428" width="162" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button1Clicked:" destination="pve-Dz-SXf" eventType="touchUpInside" id="zgr-bL-X06"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="cLA-C3-Vcg" firstAttribute="centerX" secondItem="7C9-UK-Pto" secondAttribute="centerX" constant="2.5" id="1FC-bs-Hkt"/>
-                            <constraint firstItem="o2d-yL-6p3" firstAttribute="leading" secondItem="8JK-zZ-MCW" secondAttribute="leading" id="6Uv-0A-4Cr"/>
                             <constraint firstItem="o2d-yL-6p3" firstAttribute="top" secondItem="rVR-rO-oU4" secondAttribute="top" id="9I5-gb-4sf"/>
                             <constraint firstItem="o2d-yL-6p3" firstAttribute="leading" secondItem="kPn-2p-EiS" secondAttribute="leading" constant="8" id="Ad2-ho-v6y"/>
                             <constraint firstItem="rVR-rO-oU4" firstAttribute="trailing" secondItem="GAn-Yx-aSg" secondAttribute="trailing" id="CgV-KH-Kw2"/>
                             <constraint firstItem="rVR-rO-oU4" firstAttribute="leading" secondItem="o2d-yL-6p3" secondAttribute="trailing" constant="8" symbolic="YES" id="EG7-Wn-gB7"/>
-                            <constraint firstItem="GAn-Yx-aSg" firstAttribute="top" secondItem="8JK-zZ-MCW" secondAttribute="top" id="GKJ-lr-81x"/>
                             <constraint firstItem="cLA-C3-Vcg" firstAttribute="top" secondItem="yWS-fc-pgs" secondAttribute="bottom" constant="30.5" id="JII-LG-qs9"/>
                             <constraint firstItem="vPQ-NI-aLi" firstAttribute="centerX" secondItem="7C9-UK-Pto" secondAttribute="centerX" id="N44-ha-esO"/>
-                            <constraint firstItem="o2d-yL-6p3" firstAttribute="trailing" secondItem="8JK-zZ-MCW" secondAttribute="trailing" id="Tnp-be-Lc0"/>
-                            <constraint firstItem="GAn-Yx-aSg" firstAttribute="baseline" secondItem="8JK-zZ-MCW" secondAttribute="firstBaseline" id="Whs-zz-Kpg"/>
                             <constraint firstItem="kPn-2p-EiS" firstAttribute="bottom" secondItem="o2d-yL-6p3" secondAttribute="bottom" constant="10" id="boi-SO-4AF"/>
                             <constraint firstItem="vPQ-NI-aLi" firstAttribute="top" secondItem="kPn-2p-EiS" secondAttribute="top" constant="36" id="fju-s0-h8x"/>
                             <constraint firstItem="rVR-rO-oU4" firstAttribute="leading" secondItem="GAn-Yx-aSg" secondAttribute="leading" id="h1c-Mt-eml"/>
@@ -258,7 +255,7 @@
                         <viewLayoutGuide key="safeArea" id="kPn-2p-EiS"/>
                     </view>
                     <connections>
-                        <outlet property="answerChoice1Button" destination="8JK-zZ-MCW" id="qvS-bk-cJb"/>
+                        <outlet property="answerChoice1Button" destination="8hV-cX-bgx" id="sqq-ML-RDu"/>
                         <outlet property="answerChoice2Button" destination="o2d-yL-6p3" id="Mff-nx-Qav"/>
                         <outlet property="answerChoice3Button" destination="GAn-Yx-aSg" id="fr8-l0-Mzt"/>
                         <outlet property="answerChoice4Button" destination="rVR-rO-oU4" id="gTn-ru-6mG"/>
@@ -269,7 +266,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="63d-mm-mIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3600.5" y="115.5"/>
+            <point key="canvasLocation" x="3599.1999999999998" y="114.69265367316342"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="umn-oL-t5t">
