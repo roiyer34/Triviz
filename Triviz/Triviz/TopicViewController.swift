@@ -38,7 +38,7 @@ class TopicViewController: UIViewController {
     // MARK: - Navigation
     
     @IBAction func startQuizButtonClicked(_ sender: Any) {
-        let questionVC = storyboard?.instantiateViewController(withIdentifier: "questionPage") as! QuestionViewController
+        let questionVC = storyboard?.instantiateViewController(withIdentifier: "questionVC") as! QuestionViewController
         questionVC.topic = pickedTopic
         navigationController?.pushViewController(questionVC, animated: true)
     }

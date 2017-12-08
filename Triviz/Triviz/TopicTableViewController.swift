@@ -239,12 +239,13 @@ class TopicTableViewController: UITableViewController {
     */
     @IBAction func playButtonClicked(_ sender: Any) {
         let indexPath = self.tableView.indexPathForSelectedRow
-        if (indexPath == nil) {
+        let rowIndex = indexPath?.row
+        if (indexPath == nil || rowIndex == nil) {
             let alert = UIAlertController(title: "Error 79833", message: "No topic selected, please select a topic", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Okay", style: .default))
             self.present(alert, animated: true, completion: nil)
+            return
         }
-        let rowIndex = indexPath?.row
         let pickedTopic = topics[rowIndex!]
         
         // Show the TopicViewController
