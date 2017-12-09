@@ -12,28 +12,42 @@ class QuestionViewController: UIViewController {
     var topic: Topic = Topic()
 
     
-    @IBOutlet var topicLabel: UILabel!
-    @IBOutlet var scoreLabel: UILabel!
-    @IBOutlet var questionLabel: UILabel!
+    @IBOutlet weak var topicLabel: UITextField!
+    @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var questionLabel: UILabel!
+    
     @IBOutlet var answerChoice1Button: UIButton!
     @IBOutlet var answerChoice2Button: UIButton!
     @IBOutlet var answerChoice3Button: UIButton!
     @IBOutlet var answerChoice4Button: UIButton!
     
     var answeredQs: [Int] = []
-    var score: Int = 0
-    var total: Int = 10
+    var correctAnswers: Int = 0
+    var total: Int = 11
     var question: Question = Question(question: "", arrayOfAnswers: [], learnMore: "", correctAnswer: 0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
        
+        showNewQuestion()
+    }
+
+    func showNewQuestion() {
         // Do any additional setup after loading the view.
         topicLabel.text = topic.name
-        scoreLabel.text = "\(score) / \(total)"
+        scoreLabel.text = "\(correctAnswers) / \(answeredQs.count)"
         
         // Pick a question
-        let questionIndex = Int(arc4random_uniform(UInt32(topic.questionPool.count)))
+        var questionIndex = Int(arc4random_uniform(UInt32(topic.questionPool.count)))
+        
+        //Make sure the question is new
+        while (answeredQs.contains(questionIndex)) {
+            //Look for a new question
+            questionIndex = Int(arc4random_uniform(UInt32(topic.questionPool.count)))
+        }
+        //Make sure you track all asked questions
+        answeredQs.append(questionIndex)
+        
         print("questionIndex = \(String(questionIndex))")
         question = topic.questionPool[questionIndex]
         questionLabel.text = question.question
@@ -43,7 +57,6 @@ class QuestionViewController: UIViewController {
         answerChoice4Button.setTitle(question.arrayOfAnswers[3], for: UIControlState.normal)
         
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -52,17 +65,65 @@ class QuestionViewController: UIViewController {
 
     func checkAnswer(answerClicked: String) {
         let correctAnswerString = question.arrayOfAnswers[question.correctAnswer]
+        let learnMoreAction = UIAlertAction(title: "Learn More", style: .default) {
+            (action) in
+            UIApplication.shared.open(URL(string: self.question.learnMore)!, options: [:], completionHandler: nil)
+            NSLog("Opening link")
+            return;
+        }
+        
+        let okayAction = UIAlertAction(title: "Okay", style: .default) {
+            (action) in
+            if (self.answeredQs.count == self.total) {
+                if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CongratsVC") as? CongratsViewController
+                {
+                    vc.score = self.correctAnswers
+                    self.present(vc, animated: true, completion: nil)
+                }
+                return;
+            }
+        }
         if(correctAnswerString == answerClicked) {
             // Correct - Show Green box
             let alert = UIAlertController(title: "Correct Answer :-D", message: "Way to go!", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Okay", style: .default))
+            alert.addAction(okayAction)
+            alert.addAction(learnMoreAction)
             self.present(alert, animated: true, completion: nil)
+            correctAnswers = correctAnswers + 1
         }
         else {
             // Incorrect Answer - Show Red Box
-            let alert = UIAlertController(title: "Incorrect Answer", message: "Better luck next time", preferredStyle: .actionSheet)
-            alert.addAction(UIAlertAction(title: "Okay", style: .default))
+            let alert = UIAlertController(title: "Incorrect Answer", message: "Better luck next time", preferredStyle: .alert)
+            alert.addAction(okayAction)
+            alert.addAction(learnMoreAction)
             self.present(alert, animated: true, completion: nil)
+        }
+        
+        // Do any additional setup after loading the view.
+        topicLabel.text = topic.name
+        scoreLabel.text = "\(correctAnswers) / \(answeredQs.count)"
+        
+        // Check if we've hit the total
+        if (answeredQs.count == total) {
+            // show the congratulations screen
+            //let alert = UIAlertController(title: "Game Done", message: "Way to go!", preferredStyle: .alert)
+            //alert.addAction(UIAlertAction(title: "Okay", style: .default))
+            //self.present(alert, animated: true, completion: nil)
+            
+            
+            //if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CongratsVC") as? CongratsViewController
+            //{
+            //    vc.score = correctAnswers
+            //    present(vc, animated: true, completion: nil)
+            //}
+            //let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            //let vc = storyboard.instantiateViewController(withIdentifier: "CongratsVC") as! CongratsViewController
+            //vc.score = correctAnswers
+            //navigationController?.pushViewController(vc, animated: true)
+            return
+        }
+        else {
+            showNewQuestion()
         }
     }
     

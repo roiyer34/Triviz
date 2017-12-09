@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4D6D0C1FDB5B8800CB86BB /* CongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D6D0B1FDB5B8800CB86BB /* CongratsViewController.swift */; };
 		1CFCC29F1FC1F81200B9391F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC29E1FC1F81200B9391F /* AppDelegate.swift */; };
 		1CFCC2A11FC1F81200B9391F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC2A01FC1F81200B9391F /* ViewController.swift */; };
 		1CFCC2A41FC1F81200B9391F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCC2A21FC1F81200B9391F /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C4D6D0B1FDB5B8800CB86BB /* CongratsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsViewController.swift; sourceTree = "<group>"; };
 		1CFCC29B1FC1F81200B9391F /* Triviz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triviz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFCC29E1FC1F81200B9391F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CFCC2A01FC1F81200B9391F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				1CFCC3101FD242D000B9391F /* TopicTableViewCell.swift */,
 				1CFCC3121FD249C000B9391F /* TopicTableViewController.swift */,
 				1CFCC2A21FC1F81200B9391F /* Main.storyboard */,
+				1C4D6D0B1FDB5B8800CB86BB /* CongratsViewController.swift */,
 				1CFCC3141FD25DFD00B9391F /* TopicViewController.swift */,
 				1CFCC2A51FC1F81200B9391F /* Assets.xcassets */,
 				1CFCC2A71FC1F81200B9391F /* LaunchScreen.storyboard */,
@@ -285,6 +288,7 @@
 				1CFCC3151FD25DFD00B9391F /* TopicViewController.swift in Sources */,
 				1CFCC3131FD249C000B9391F /* TopicTableViewController.swift in Sources */,
 				1CFCC2A11FC1F81200B9391F /* ViewController.swift in Sources */,
+				1C4D6D0C1FDB5B8800CB86BB /* CongratsViewController.swift in Sources */,
 				1CFCC2CF1FC4E8D300B9391F /* Topic.swift in Sources */,
 				1CFCC2CD1FC4E37A00B9391F /* Question.swift in Sources */,
 				1CFCC29F1FC1F81200B9391F /* AppDelegate.swift in Sources */,

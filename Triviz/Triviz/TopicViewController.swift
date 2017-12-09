@@ -16,9 +16,22 @@ class TopicViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
     
     
+    @IBAction func backAction(sender:UIBarButtonItem) {
+        if let nav = self.navigationController {
+            nav.popViewController(animated: true)
+        } else {
+            self.dismiss(animated: true, completion: nil)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Set up navigation bar
+        self.title = "Topic Overview"
+        //self.navigationItem.hidesBackButton = true
+        //let backButton = UIBarButtonItem(title: "< Topics", style: UIBarButtonItemStyle.plain, target: self, action: #selector(TopicViewController.backAction(sender:)))
+        //self.navigationItem.setLeftBarButton(backButton, animated: true)
+        
         // Do any additional setup after loading the view.
         topicLabel.text = pickedTopic.name
         descriptionLabel.text = pickedTopic.description
@@ -51,5 +64,17 @@ class TopicViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+        if (segue.destination is QuestionViewController) {
+            
+            let questionVC = segue.destination as? QuestionViewController
+            questionVC?.topic = pickedTopic
+            questionVC?.title = "Quiz"
+            //navigationController?.pushViewController(topicVC, animated: true)
+        }
+    }
 
 }
