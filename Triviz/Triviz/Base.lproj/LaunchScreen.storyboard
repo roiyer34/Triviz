@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,17 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Triviz" translatesAutoresizingMaskIntoConstraints="NO" id="JuN-8R-APp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Triviz" translatesAutoresizingMaskIntoConstraints="NO" id="JuN-8R-APp">
                                 <rect key="frame" x="-186" y="45" width="748" height="578"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="JuN-8R-APp" secondAttribute="height" multiplier="507:355" id="Uwx-hU-TKt"/>
+                                    <constraint firstAttribute="width" constant="748" id="Fcv-Oq-94y"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="JuN-8R-APp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="l7O-Qi-hFz"/>
-                            <constraint firstItem="JuN-8R-APp" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="r71-Wq-Hu4"/>
+                            <constraint firstItem="JuN-8R-APp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="9Hx-0e-aO3"/>
+                            <constraint firstItem="JuN-8R-APp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PGX-XQ-A5S"/>
+                            <constraint firstItem="JuN-8R-APp" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ZcO-od-t4O"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

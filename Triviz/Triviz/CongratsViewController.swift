@@ -12,8 +12,9 @@ class CongratsViewController: UIViewController {
 
     var score: Int = 0
     
-    @IBOutlet var noteLabel: UITextField!
-    @IBOutlet var scoreLabel: UITextField!
+    @IBOutlet var scoreLabel: UILabel!
+    @IBOutlet var noteLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
