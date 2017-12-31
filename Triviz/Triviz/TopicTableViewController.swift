@@ -42,7 +42,7 @@ class TopicTableViewController: UITableViewController {
         
         let questionNine = Question(question: "Which Rams player recently got fined for a hit on a New Orleans tight end?", arrayOfAnswers: ["Brandon Allen", "Mark Barron", "Blake Countess", "Malcolm Butler"], learnMore: "http://profootballtalk.nbcsports.com/2017/12/01/blake-countess-fined-24308-for-hit-on-coby-fleener/", correctAnswer: 2)
         
-        let questionTen = Question(question: "What is the Patriots current win streak in the 2017-2018 NFL season?", arrayOfAnswers: ["7", "9", "2", "1"], learnMore: "https://www.cbssports.com/nfl/news/nfl-odds-picks-week-13-advanced-computer-model-loves-patriots-and-titans/", correctAnswer: 0)
+        let questionTen = Question(question: "What is the Patriots current win streak in the 2017-2018 NFL season?", arrayOfAnswers: ["7", "9", "2", "1"], learnMore: "https://www.cbssports.com/nfl/news/nfl-odds-picks-week-13-advanced-computer-model-loves-patriots-and-titans/", correctAnswer: 3)
         
         let questionEleven = Question(question: "In the sport of cricket, who was the winner of the most recent match of New Zealand vs the West Indies?", arrayOfAnswers: ["New Zealand does not play cricket", "New Zealand", "West Indies", "The West Indies do not play cricket"] , learnMore: "http://www.firstpost.com/firstcricket/sports-news/live-new-zealand-vs-west-indies-1st-test-day-2-at-wellington-scores-and-updates-4237705.html", correctAnswer: 1)
         
@@ -50,11 +50,11 @@ class TopicTableViewController: UITableViewController {
         
         let questionThirteen = Question(question: "What is the name of the recently created sport this year, which is identical to soccer expect hands are used to pass the ball instead of feet?", arrayOfAnswers: ["Throwball", "Arena Ball", "Handball", "Ringer"], learnMore: "http://www.topendsports.com/sport/new/ringer.htm", correctAnswer: 3)
         
-        let questionFourteen = Question(question: "What team beat the Atlanta Hawks to continue on to a ten game win streak?", arrayOfAnswers: ["Rockets", "Cavaliers", "Patriots", "Redskins"], learnMore: "http://www.espn.com/nba/story/_/id/21625374/cleveland-cavaliers-extend-win-streak-10-games", correctAnswer: 1)
+        let questionFourteen = Question(question: "What team beat the Atlanta Hawks to continue on to a ten game win streak?", arrayOfAnswers: ["Rockets", "Cavaliers", "Wariors", "Bulls"], learnMore: "http://www.espn.com/nba/story/_/id/21625374/cleveland-cavaliers-extend-win-streak-10-games", correctAnswer: 1)
         
         let questionFifteen = Question(question: "Which player recently returned from an injury to support the Spurs in a win against Memphis?", arrayOfAnswers: ["Dele Alli", "Kawhi Leonard", "Pau Gasol", "Tony Parker"], learnMore: ",http://www.nba.com/article/2017/12/01/san-antonio-spurs-kawhi-leonard-closer-returning-action?collection=news#/", correctAnswer: 2)
         
-        let questionSixteen = Question(question: "Throwback Question! What record setting quarterback was the 82nd draft-pick in 1979?" , arrayOfAnswers: ["Joe Montana", "John Madden", "Peyton Manning", "Bill Gates"], learnMore: "https://en.wikipedia.org/wiki/Joe_Montana", correctAnswer: 0)
+        let questionSixteen = Question(question: "Throwback Question! What record setting quarterback was the 82nd draft-pick in 1979?" , arrayOfAnswers: ["Joe Montana", "John Elway", "Steve Young", "Jim Plunkett"], learnMore: "https://en.wikipedia.org/wiki/Joe_Montana", correctAnswer: 0)
         
         let questionSeventeen = Question(question: "Throwback Question! Which team did Babe Ruth play for before joining the Boston Red Sox?", arrayOfAnswers: ["New York Yankees", "Cincinnati Reds", "Baltimore Orioles", "Boston Browns"], learnMore: "https://en.wikipedia.org/wiki/Babe_Ruth", correctAnswer: 2)
         
@@ -101,7 +101,7 @@ class TopicTableViewController: UITableViewController {
         let questionThirtyEight = Question(question: "According to a US general, which two countries are building special space weapons to target US satellites?", arrayOfAnswers: ["North Korea and China","North Korea and Iraq","North Korea and Pakistan","China and Russia"], learnMore: "http://www.cnn.com/2017/12/02/politics/russia-china-space-weapons/index.html", correctAnswer: 3)
         
         let questionThirtyNine = Question(question:
-        "Democrat Doug Jones is currently running for state Senator in which state?", arrayOfAnswers: ["Alabama","Illinois","Alaska","Oregon"], learnMore: "https://www.washingtonpost.com/politics/?utm_term=.9ed4aab3c2a9", correctAnswer: 0)
+        "Democrat Doug Joneswon the election for state Senator in which state?", arrayOfAnswers: ["Alabama","Illinois","Alaska","Oregon"], learnMore: "https://www.washingtonpost.com/politics/?utm_term=.9ed4aab3c2a9", correctAnswer: 0)
         
         let questionForty = Question(question: "Throwback Question! Who was the president during the 9/11 attacks?", arrayOfAnswers: ["George Bush","Barack Obama","Richard Nixon","Bill Clinton"], learnMore: "http://www.history.com/topics/9-11-attack", correctAnswer: 0)
         
@@ -125,7 +125,7 @@ class TopicTableViewController: UITableViewController {
         
         let questionFifty = Question(question: "Throwback question! Which video game was the first fps.", arrayOfAnswers: ["Wolfenstein","Doom","Quake","Maze War"], learnMore: "https://www.polygon.com/features/2015/5/21/8627231/the-first-first-person-shooter", correctAnswer: 3)
         
-        let questionFiftyOne = Question(question: "Who plays Donald Trump on staurday night live?", arrayOfAnswers: ["Mikey Day","Kate McKinnon","Alec Baldwin","Aziz Ansari"], learnMore: "https://mic.com/articles/155471/who-plays-donald-trump-on-snl-here-s-a-preview-of-the-show-s-election-coverage#.htx7cgVJT", correctAnswer: 2)
+        let questionFiftyOne = Question(question: "Who plays Donald Trump on Saturday Night Live?", arrayOfAnswers: ["Mikey Day","Kate McKinnon","Alec Baldwin","Aziz Ansari"], learnMore: "https://mic.com/articles/155471/who-plays-donald-trump-on-snl-here-s-a-preview-of-the-show-s-election-coverage#.htx7cgVJT", correctAnswer: 2)
         
         let questionFiftyTwo = Question(question: "Which cartoon has been turned into a broadway show and started running on December 4?", arrayOfAnswers: ["Spongebob Squarepants","Ninjago","Mickey Mouse","Duck Tales"], learnMore: "https://www.nytimes.com/2017/11/30/theater/whats-new-in-nyc-theater.html?rref=collection%2Fspotlightcollection%2Farts-listings&action=click&contentCollection=arts&region=rank&module=package&version=highlights&contentPlacement=2&pgtype=collection", correctAnswer: 0)
         
@@ -133,11 +133,17 @@ class TopicTableViewController: UITableViewController {
         
         let questionFiftyFour = Question(question: "What videogames are being played professionaly in australia in big tournaments in the month of December as of December 4th?", arrayOfAnswers: ["PUBG and Starcraft 2","Overwatch and Doom","Overwatch and Mario Cart 8","Starwars Battlefront 2 and Call of Duty WW2"], learnMore: "http://www.ign.com/articles/2017/10/12/ign-esports-whats-coming-up-in-hearthstone-cod-smite-dota-2-and-more", correctAnswer: 0)
         
-        let questionFiftyFive = Question(question: "Which awards ceremony is being held this month?", arrayOfAnswers: ["The Emmys","The Oscars","The Kenedey Center Honors","The iHeart Radio Music Festival"], learnMore: "https://www.washingtonpost.com/entertainment/the-latest-kennedy-honors-held-without-the-trumps/2017/12/03/d75aa906-d87f-11e7-a241-0848315642d0_story.html?utm_term=.65a96c0a4cb5", correctAnswer: 2)
+        let questionFiftyFive = Question(question: "Which music awards ceremony is being held this month?", arrayOfAnswers: ["The Grammys","The Oscars","The Kenedey Center Honors","The iHeart Radio Music Festival"], learnMore: "https://www.washingtonpost.com/entertainment/the-latest-kennedy-honors-held-without-the-trumps/2017/12/03/d75aa906-d87f-11e7-a241-0848315642d0_story.html?utm_term=.65a96c0a4cb5", correctAnswer: 0)
         
         let questionFiftySix = Question(question: "Which movie is being screened and includeds Denzel Washington?", arrayOfAnswers: ["Wonder","Roman J. Israel Esq.","Coco","The Equalizer 2"], learnMore: "https://www.washingtonpost.com/goingoutguide/movies/coco-and-other-movies-to-watch-with-your-kids/2017/11/22/6985fdde-cae4-11e7-b0cf-7689a9f2d84e_story.html?utm_term=.2db85c5a5782", correctAnswer: 1)
         
         let questionSixty = Question(question: "In the movie Thor Ragnarok, Bruce Banner turns into what supernatural character when he becomes angry?", arrayOfAnswers: ["Batman","Thor","Hulk","The Human Torch"], learnMore: "http://www.imdb.com/title/tt3501632/", correctAnswer: 2)
+        
+        let questionSixtyOne = Question(question: "Which Album has the songs Believe and Like Home", arrayOfAnswers: ["Reputation", "Songs of Experience", "Revival", "Divide"], learnMore: "https://en.wikipedia.org/wiki/Revival_(Eminem_album)", correctAnswer: 2)
+        
+        let questionSixtyTwo = Question(question: "Which song has the most views on Youtube", arrayOfAnswers: ["Gangnam Style","See You Again","Look What You Made Me Do","Despacito"], learnMore: "http://www.telegraph.co.uk/technology/0/most-watched-youtube-videos-of-all-time/", correctAnswer: 3)
+        
+        let questionSixtyThree = Question(question: "Which artist topped the Billboard top 100 artists chart for the first time", arrayOfAnswers: ["Ed Sheeran","Eminem","Cardi B","Taylor Swift"], learnMore: "http://www.complex.com/music/2017/12/eminem-tops-billboard-artist-100-chart-thanks-revival-debut", correctAnswer: 1)
         
         var topic = Topic(name: "Sports", image: UIImage(named: "Sports")!, description:
             "Think you know all about the sports world? This topic inclues questions about recent fixtures and matches from a variety of sports, from football to futbol.", questionPool: [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen, questionEleven, questionTweleve, questionThirteen, questionFourteen, questionFifteen, questionSixteen, questionSeventeen, questionEighteen, questionNineteen, questionTwenty])
@@ -147,7 +153,13 @@ class TopicTableViewController: UITableViewController {
         topic = Topic(name: "Politics", image: UIImage(named: "Politics")!, description: "From Russia to Brazil, this quiz test your knowledge on world politics.", questionPool: [questionTwentyOne, questionTwentyTwo, questionTwentyThree, questionTwentyFour, questionTwentyFive, questionTwentySix, questionTwentySeven, questionTwentyEight, questionTwentyNine, questionThirty, questionThirtyOne, questionThirtyTwo, questionThirtyThree, questionThirtyFour, questionThirtyFive, questionThirtySix, questionThirtySeven, questionThirtyEight, questionThirtyNine, questionForty])
         topics.append(topic)
         
-        topic = Topic(name: "Entertainment", image: UIImage(named: "Entertainment")!, description: "Think you know all about the new hits and games? This quiz tests your knowledge on all the recent additions to the entertainment world.", questionPool: [questionFortyOne, questionFortyTwo, questionFortyThree, questionFortyFour, questionFortyFive, questionFortySix, questionFortySeven, questionFortyEight, questionFortyNine, questionFifty, questionFiftyOne, questionFiftyTwo, questionFiftyThree, questionFiftyFour, questionFiftyFive, questionFiftySix, questionSixty])
+        topic = Topic(name: "Gaming", image: UIImage(named:"Gaming")!, description: "Think you know the new hits and flops in the gaming industry? This quiz tests your knowledge on video games", questionPool: [questionFortyOne,questionFortySeven, questionFortyEight, questionFortyNine, questionFifty, questionFiftyFour,])
+        topics.append(topic)
+        
+        topic = Topic(name: "Movies and TV Shows", image: UIImage(named:"Movies")!, description: "From the hottest episodes and movies, this quiz tests your knowledge on the recent additions to the world of movies and tv shows." , questionPool: [questionFortyTwo, questionFortyThree, questionFortyFour,  questionFortySix, questionFiftyOne, questionFiftyTwo, questionFiftyThree, questionFiftySix, questionSixty])
+        topics.append(topic)
+        
+        topic = Topic(name: "Music", image: UIImage(named:"Music")!, description: "From clasical music to classic rock. This quiz tests your understanding of the music world.", questionPool: [questionFortyFive, questionFiftyFive, questionSixtyOne, questionSixtyTwo, questionSixtyThree])
         topics.append(topic)
         
         let game = Game(topics:topics)
