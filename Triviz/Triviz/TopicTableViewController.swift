@@ -145,6 +145,10 @@ class TopicTableViewController: UITableViewController {
         
         let questionSixtyThree = Question(question: "Which artist topped the Billboard top 100 artists chart for the first time", arrayOfAnswers: ["Ed Sheeran","Eminem","Cardi B","Taylor Swift"], learnMore: "http://www.complex.com/music/2017/12/eminem-tops-billboard-artist-100-chart-thanks-revival-debut", correctAnswer: 1)
         
+        let questionSixtyFour = Question(question: "Which popular TV show is having its official end in 2019?", arrayOfAnswers: ["The Simpsons", "Family Guy", "Game of Thrones", "Supernatural"], learnMore: "http://www.cnn.com/2018/01/04/entertainment/game-of-thrones-2019/index.html", correctAnswer: 2)
+        
+        let questionSixtyFive = Question(question: "Which artist is going to headline coachella?", arrayOfAnswers: ["Imagine Dragons", "Beyonce", "Ed Sheeran", "Post Malone"], learnMore: "http://www.cnn.com/2018/01/03/entertainment/coachella-2018-lineup/index.html", correctAnswer: 1)
+        
         var topic = Topic(name: "Sports", image: UIImage(named: "Sports")!, description:
             "Think you know all about the sports world? This topic inclues questions about recent fixtures and matches from a variety of sports, from football to futbol.", questionPool: [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen, questionEleven, questionTweleve, questionThirteen, questionFourteen, questionFifteen, questionSixteen, questionSeventeen, questionEighteen, questionNineteen, questionTwenty])
         var topics: [Topic] = []
@@ -156,10 +160,10 @@ class TopicTableViewController: UITableViewController {
         topic = Topic(name: "Gaming", image: UIImage(named:"Gaming")!, description: "Think you know the new hits and flops in the gaming industry? This quiz tests your knowledge on video games", questionPool: [questionFortyOne,questionFortySeven, questionFortyEight, questionFortyNine, questionFifty, questionFiftyFour,])
         topics.append(topic)
         
-        topic = Topic(name: "Movies and TV Shows", image: UIImage(named:"Movies")!, description: "From the hottest episodes and movies, this quiz tests your knowledge on the recent additions to the world of movies and tv shows." , questionPool: [questionFortyTwo, questionFortyThree, questionFortyFour,  questionFortySix, questionFiftyOne, questionFiftyTwo, questionFiftyThree, questionFiftySix, questionSixty])
+        topic = Topic(name: "Movies and TV Shows", image: UIImage(named:"Movies")!, description: "From the hottest episodes and movies, this quiz tests your knowledge on the recent additions to the world of movies and tv shows." , questionPool: [questionFortyTwo, questionFortyThree, questionFortyFour,  questionFortySix, questionFiftyOne, questionFiftyTwo, questionFiftyThree, questionFiftySix, questionSixty, questionSixtyFour])
         topics.append(topic)
         
-        topic = Topic(name: "Music", image: UIImage(named:"Music")!, description: "From clasical music to classic rock. This quiz tests your understanding of the music world.", questionPool: [questionFortyFive, questionFiftyFive, questionSixtyOne, questionSixtyTwo, questionSixtyThree])
+        topic = Topic(name: "Music", image: UIImage(named:"Music")!, description: "From clasical music to classic rock. This quiz tests your understanding of the music world.", questionPool: [questionFortyFive, questionFiftyFive, questionSixtyOne, questionSixtyTwo, questionSixtyThree, questionSixtyFive])
         topics.append(topic)
         
         let game = Game(topics:topics)
