@@ -143,7 +143,7 @@ class TopicTableViewController: UITableViewController {
         
         let questionSixtyTwo = Question(question: "Which song has the most views on Youtube", arrayOfAnswers: ["Gangnam Style","See You Again","Look What You Made Me Do","Despacito"], learnMore: "http://www.telegraph.co.uk/technology/0/most-watched-youtube-videos-of-all-time/", correctAnswer: 3)
         
-        let questionSixtyThree = Question(question: "Which artist topped the Billboard top 100 artists chart for the first time", arrayOfAnswers: ["Ed Sheeran","Eminem","Cardi B","Taylor Swift"], learnMore: "http://www.complex.com/music/2017/12/eminem-tops-billboard-artist-100-chart-thanks-revival-debut", correctAnswer: 1)
+        let questionSixtyThree = Question(question: "Which artist topped the Billboard top 100 artists chart for the first time?", arrayOfAnswers: ["Ed Sheeran","Eminem","Cardi B","Taylor Swift"], learnMore: "http://www.complex.com/music/2017/12/eminem-tops-billboard-artist-100-chart-thanks-revival-debut", correctAnswer: 1)
         
         let questionSixtyFour = Question(question: "Which popular TV show is having its official end in 2019?", arrayOfAnswers: ["The Simpsons", "Family Guy", "Game of Thrones", "Supernatural"], learnMore: "http://www.cnn.com/2018/01/04/entertainment/game-of-thrones-2019/index.html", correctAnswer: 2)
         
@@ -152,7 +152,7 @@ class TopicTableViewController: UITableViewController {
         let questionSixtySix = Question(question: "Which esports league started this year?", arrayOfAnswers: ["Overwatch League", "The Call of Duty League", "The World of Warcraft League", "The PUBG league"], learnMore: "https://overwatchleague.com/en-us/?utm_source=Google%20US&utm_medium=Search&utm_content=23027314&utm_campaign=BLZ_OWL_L_Launch_SEM_Phase_1_Q4_2017_NA", correctAnswer: 0)
         
         let questionSixtySeven = Question(question: "What color is being worn at the Golden Globes to fight for gender equality?", arrayOfAnswers: ["White", "Rainbow", "Gold", "Black"], learnMore: "http://www.cnn.com/2018/01/05/entertainment/golden-globes-2018-black-dress-explainer/index.html", correctAnswer: 3)
-        
+        //let questionSixtyEight = Question(question: "Which gameshow host recently got brain surgery?", arrayOfAnswers: [""], learnMore: "", correctAnswer: Int)
         
         var topic = Topic(name: "Sports", image: UIImage(named: "Sports")!, description:
             "Think you know all about the sports world? This topic inclues questions about recent fixtures and matches from a variety of sports, from football to futbol.", questionPool: [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen, questionEleven, questionTweleve, questionThirteen, questionFourteen, questionFifteen, questionSixteen, questionSeventeen, questionEighteen, questionNineteen, questionTwenty])

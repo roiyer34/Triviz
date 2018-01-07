@@ -33,6 +33,9 @@ class CongratsViewController: UIViewController {
         if (score == 10) {
             noteLabel.text = "You are a legend :)"
         }
+        if (score > 10) {
+            noteLabel.text = "You have successfully broken the game"
+        }
     }
 
     override func didReceiveMemoryWarning() {

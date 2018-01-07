@@ -33,6 +33,16 @@ class QuestionViewController: UIViewController {
     }
 
     func showNewQuestion() {
+         //Check if we've hit the total
+        if (answeredQs.count == total) {
+            if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CongratsVC") as? CongratsViewController
+            {
+                vc.score = self.correctAnswers
+                self.present(vc, animated: true, completion: nil)
+            }
+            return
+        }
+        
         // Do any additional setup after loading the view.
         topicLabel.text = topic.name
         scoreLabel.text = "\(correctAnswers) / \(answeredQs.count)"
@@ -65,23 +75,17 @@ class QuestionViewController: UIViewController {
 
     func checkAnswer(answerClicked: String) {
         let correctAnswerString = question.arrayOfAnswers[question.correctAnswer]
+        
         let learnMoreAction = UIAlertAction(title: "Learn More", style: .default) {
             (action) in
+            print("Opening link: " + self.question.learnMore)
             UIApplication.shared.open(URL(string: self.question.learnMore)!, options: [:], completionHandler: nil)
-            NSLog("Opening link")
-            return;
+            self.showNewQuestion()
+            
         }
-        
         let okayAction = UIAlertAction(title: "Okay", style: .default) {
             (action) in
-            if (self.answeredQs.count == self.total) {
-                if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CongratsVC") as? CongratsViewController
-                {
-                    vc.score = self.correctAnswers
-                    self.present(vc, animated: true, completion: nil)
-                }
-                return;
-            }
+            self.showNewQuestion()
         }
         if(correctAnswerString == answerClicked) {
             // Correct - Show Green box
@@ -97,33 +101,6 @@ class QuestionViewController: UIViewController {
             alert.addAction(okayAction)
             alert.addAction(learnMoreAction)
             self.present(alert, animated: true, completion: nil)
-        }
-        
-        // Do any additional setup after loading the view.
-        topicLabel.text = topic.name
-        scoreLabel.text = "\(correctAnswers) / \(answeredQs.count)"
-        
-        // Check if we've hit the total
-        if (answeredQs.count == total) {
-            // show the congratulations screen
-            //let alert = UIAlertController(title: "Game Done", message: "Way to go!", preferredStyle: .alert)
-            //alert.addAction(UIAlertAction(title: "Okay", style: .default))
-            //self.present(alert, animated: true, completion: nil)
-            
-            
-            //if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CongratsVC") as? CongratsViewController
-            //{
-            //    vc.score = correctAnswers
-            //    present(vc, animated: true, completion: nil)
-            //}
-            //let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            //let vc = storyboard.instantiateViewController(withIdentifier: "CongratsVC") as! CongratsViewController
-            //vc.score = correctAnswers
-            //navigationController?.pushViewController(vc, animated: true)
-            return
-        }
-        else {
-            showNewQuestion()
         }
     }
     
