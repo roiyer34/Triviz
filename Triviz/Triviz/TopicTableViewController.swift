@@ -149,6 +149,11 @@ class TopicTableViewController: UITableViewController {
         
         let questionSixtyFive = Question(question: "Which artist is going to headline coachella?", arrayOfAnswers: ["Imagine Dragons", "Beyonce", "Ed Sheeran", "Post Malone"], learnMore: "http://www.cnn.com/2018/01/03/entertainment/coachella-2018-lineup/index.html", correctAnswer: 1)
         
+        let questionSixtySix = Question(question: "Which esports league started this year?", arrayOfAnswers: ["Overwatch League", "The Call of Duty League", "The World of Warcraft League", "The PUBG league"], learnMore: "https://overwatchleague.com/en-us/?utm_source=Google%20US&utm_medium=Search&utm_content=23027314&utm_campaign=BLZ_OWL_L_Launch_SEM_Phase_1_Q4_2017_NA", correctAnswer: 0)
+        
+        let questionSixtySeven = Question(question: "What color is being worn at the Golden Globes to fight for gender equality?", arrayOfAnswers: ["White", "Rainbow", "Gold", "Black"], learnMore: "http://www.cnn.com/2018/01/05/entertainment/golden-globes-2018-black-dress-explainer/index.html", correctAnswer: 3)
+        
+        
         var topic = Topic(name: "Sports", image: UIImage(named: "Sports")!, description:
             "Think you know all about the sports world? This topic inclues questions about recent fixtures and matches from a variety of sports, from football to futbol.", questionPool: [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen, questionEleven, questionTweleve, questionThirteen, questionFourteen, questionFifteen, questionSixteen, questionSeventeen, questionEighteen, questionNineteen, questionTwenty])
         var topics: [Topic] = []
@@ -157,10 +162,10 @@ class TopicTableViewController: UITableViewController {
         topic = Topic(name: "Politics", image: UIImage(named: "Politics")!, description: "From Russia to Brazil, this quiz test your knowledge on world politics.", questionPool: [questionTwentyOne, questionTwentyTwo, questionTwentyThree, questionTwentyFour, questionTwentyFive, questionTwentySix, questionTwentySeven, questionTwentyEight, questionTwentyNine, questionThirty, questionThirtyOne, questionThirtyTwo, questionThirtyThree, questionThirtyFour, questionThirtyFive, questionThirtySix, questionThirtySeven, questionThirtyEight, questionThirtyNine, questionForty])
         topics.append(topic)
         
-        topic = Topic(name: "Gaming", image: UIImage(named:"Gaming")!, description: "Think you know the new hits and flops in the gaming industry? This quiz tests your knowledge on video games", questionPool: [questionFortyOne,questionFortySeven, questionFortyEight, questionFortyNine, questionFifty, questionFiftyFour,])
+        topic = Topic(name: "Gaming", image: UIImage(named:"Gaming")!, description: "Think you know the new hits and flops in the gaming industry? This quiz tests your knowledge on video games", questionPool: [questionFortyOne,questionFortySeven, questionFortyEight, questionFortyNine, questionFifty, questionFiftyFour, questionSixtySix,])
         topics.append(topic)
         
-        topic = Topic(name: "Movies and TV Shows", image: UIImage(named:"Movies")!, description: "From the hottest episodes and movies, this quiz tests your knowledge on the recent additions to the world of movies and tv shows." , questionPool: [questionFortyTwo, questionFortyThree, questionFortyFour,  questionFortySix, questionFiftyOne, questionFiftyTwo, questionFiftyThree, questionFiftySix, questionSixty, questionSixtyFour])
+        topic = Topic(name: "Movies and TV Shows", image: UIImage(named:"Movies")!, description: "From the hottest episodes and movies, this quiz tests your knowledge on the recent additions to the world of movies and tv shows." , questionPool: [questionFortyTwo, questionFortyThree, questionFortyFour,  questionFortySix, questionFiftyOne, questionFiftyTwo, questionFiftyThree, questionFiftySix, questionSixty, questionSixtyFour, questionSixtySeven])
         topics.append(topic)
         
         topic = Topic(name: "Music", image: UIImage(named:"Music")!, description: "From clasical music to classic rock. This quiz tests your understanding of the music world.", questionPool: [questionFortyFive, questionFiftyFive, questionSixtyOne, questionSixtyTwo, questionSixtyThree, questionSixtyFive])
