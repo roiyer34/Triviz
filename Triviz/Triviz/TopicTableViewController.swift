@@ -121,7 +121,7 @@ class TopicTableViewController: UITableViewController {
         
         let questionFortyEight = Question(question: "Which PC Video Game has the highest metacritic rating of this year?", arrayOfAnswers: ["Legend of Zelda: Breath of the Wild","Divinity Original Sin 2","Destiny 2","Overwatch"], learnMore: "http://www.metacritic.com/browse/games/score/metascore/year/pc/filtered?sort=desc", correctAnswer: 1)
         
-        let questionFortyNine = Question(question: "Which video console is the best selling of 2017 so far", arrayOfAnswers: ["Xbox One","Playstation Four","Xbox One X","Nintendo Switch"], learnMore: "http://www.ign.com/articles/2017/10/19/nintendo-switch-was-the-top-selling-console-in-the-us-in-september", correctAnswer: 3)
+        let questionFortyNine = Question(question: "Which video console is the best selling of 2017", arrayOfAnswers: ["Xbox One","Playstation Four","Xbox One X","Nintendo Switch"], learnMore: "http://www.ign.com/articles/2017/10/19/nintendo-switch-was-the-top-selling-console-in-the-us-in-september", correctAnswer: 3)
         
         let questionFifty = Question(question: "Throwback question! Which video game was the first fps.", arrayOfAnswers: ["Wolfenstein","Doom","Quake","Maze War"], learnMore: "https://www.polygon.com/features/2015/5/21/8627231/the-first-first-person-shooter", correctAnswer: 3)
         
@@ -154,6 +154,51 @@ class TopicTableViewController: UITableViewController {
         let questionSixtySeven = Question(question: "What color is being worn at the Golden Globes to fight for gender equality?", arrayOfAnswers: ["White", "Rainbow", "Gold", "Black"], learnMore: "http://www.cnn.com/2018/01/05/entertainment/golden-globes-2018-black-dress-explainer/index.html", correctAnswer: 3)
         let questionSixtyEight = Question(question: "Which gameshow host recently got brain surgery?", arrayOfAnswers: ["Alex Trebek", "Vana White", "Pat Sajak", "Regis Philiben"], learnMore: "https://www.nbcnews.com/pop-culture/tv/jeopardy-hiatus-after-host-alex-trebek-has-brain-surgery-n834876", correctAnswer: 0)
         
+        let questionSixtyNine = Question(question: "Which punishingly dificult game by FromSoftware is getting a remaster on the Nintendo Switch?", arrayOfAnswers: ["Super Meat Boy", "Dark Souls", "Donkey Kong Country", "Battletoads"], learnMore: "https://www.forbes.com/sites/erikkain/2018/01/11/dark-souls-remastered-is-more-than-just-a-new-coat-of-paint/#6bee9e4b2124", correctAnswer: 1)
+        
+        let questionSeventy = Question(question: "Which trial and error video game got ported to the Switch?", arrayOfAnswers: ["Battletoads", "Teenage Mutant Ninja Turtles", "Super Meat Boy", "Player Unknown Battlegrounds"], learnMore: "https://kotaku.com/super-meat-boy-is-the-latest-port-to-sell-better-than-e-1822056498", correctAnswer: 2)
+        
+        let questionSeventyOne = Question(question: "Which game got 10 nominations at the 21st DICE awards?", arrayOfAnswers: ["Horizon Zero Dawn", "Legend of Zelda Breath of the Wild", "Super Mario Odyssey", "Destiny Two"], learnMore: "http://www.ign.com/articles/2018/01/13/horizon-zero-dawn-leads-2018-dice-awards-nominees", correctAnswer: 0)
+        
+        let questionSeventyTwo = Question(question: "Which video game which is the fifth game in its respective series got leaked recently?", arrayOfAnswers: ["Divinity Original Sin 5", "Kingdom Hearts 5", "Half Life 5", "Devil May Cry 5"], learnMore: "https://www.express.co.uk/entertainment/gaming/904402/PS4-games-news-shock-Devil-May-Cry-5-leak-God-of-War-Release-Date", correctAnswer: 3)
+        
+        let questionSeventyThree = Question(question: "Which video game has anticipated release in 2018 and the latest main entry in the series was released in 2005?", arrayOfAnswers: ["Kingdom Hearts 3", "God of War", "Valkria Chronicles", "Donkey Kong Country"], learnMore: "https://kingdomhearts.com/home/us/", correctAnswer: 0)
+        
+        let questionSeventyFour = Question(question: "Which superhero in the DC univese got three movies that came to netflix?", arrayOfAnswers: ["Superman", "Green Lantern", "Aquaman", "Batman"], learnMore: "https://www.gamespot.com/articles/new-on-netflix-for-january-2018-more-movies-origin/1100-6455633/", correctAnswer: 3)
+        
+        let questionSeventyFive = Question(question: "What is the newest superhero show to come on to CW?", arrayOfAnswers: ["Supergirl", "Flash", "Legends of Tomorrow", "Black Lightning"], learnMore: "http://www.cnn.com/2018/01/12/entertainment/black-lightning-review/index.html", correctAnswer: 3)
+        
+        let questionSeventySix = Question(question: "Which movies award ceremony is happening soon?", arrayOfAnswers: ["The Grammys", "The Emmys", "The Oscars", "Tribeca Film Festival"], learnMore: "https://www.washingtonpost.com/news/comic-riffs/wp/2018/01/12/oscars-voting-ends-today-will-wonder-woman-finally-break-the-anti-superhero-streak/?utm_term=.84ff47e08fcd", correctAnswer: 2)
+        
+        let questionSeventySeven = Question(question: "Which artist got the most nominations at this years Grammys?", arrayOfAnswers: ["Bruno Mars", "Cardi B", "Taylor Swift", "Kendrick Lemar"], learnMore: "https://www.grammy.com/grammys/news/60th-grammy-awards-full-nominees-list", correctAnswer: 3)
+        
+        let questionSeventyEight = Question(question: "Which underwater survival video game released last month?", arrayOfAnswers: ["Subnautica", "Abzu", "Ark Survival Evolved", "Minecraft"], learnMore: "http://www.ign.com/articles/2018/01/26/subnautica-review", correctAnswer: 0)
+        
+        let questionSeventyNine = Question(question: "Which open world rpg came out last month and is 6th in its respective series?", arrayOfAnswers: ["Star Wars Battlefront 2", "Fortnite", "Monster Hunter World", "Destiny 2"], learnMore: "http://www.ign.com/articles/2018/01/25/monster-hunter-world-review", correctAnswer: 2)
+        
+        let questionEighty = Question(question: "Which anticipated game releasing in March is about pirates?", arrayOfAnswers: ["Call of Duty: Pirates", "Sea of Thieves", "Oceanhorn", "Sea Dogs"], learnMore: "http://www.ign.com/articles/2018/01/26/the-sea-of-thieves-beta-has-me-equal-parts-concerned-and-hopeful", correctAnswer: 1)
+        
+        let questionEightyOne = Question(question: "What was announced at nintendo direct that can make the nintendo switch a piano among other things?", arrayOfAnswers: ["Nintendo Labo", "Nintendo Inovations", "Nintendo Build", "Nintendo Create"], learnMore: "https://labo.nintendo.com/?gclid=CNKD2-r2-tgCFRKlswod73QGJw&gclsrc=ds", correctAnswer: 0)
+        
+        let questionEightyTwo = Question(question: "Which video game was Ubisoft thinking about increasing the price but they decided against it last month?", arrayOfAnswers: ["Call of Duty WW2", "Rainbow Six Seige", "Ghost Recon: Wildlands", "Battlefield 1"], learnMore: "http://www.ign.com/articles/2018/01/27/ubisoft-addresses-rainbow-six-siege-pricing-concerns", correctAnswer: 1)
+        
+        let questionEightyThree = Question(question: "Which game developer that created Unreal Engine 5 is shutting down their MOBA Paragon?", arrayOfAnswers: ["Ubisoft", "Activision", "Epic Games", "Blizzard"], learnMore: "https://www.thegamer.com/epic-games-shutting-down-paragon/", correctAnswer: 2)
+        
+        let questionEightyFour = Question(question: "Which hard mobile platformer gained popularity on Twitter?", arrayOfAnswers: ["Clash of Clans", "Clash Royale", "Trap Adventure 2", "Shadow Fight 3"], learnMore: "https://www.thegamer.com/trap-adventure-2-video-hardest-game/", correctAnswer: 2)
+        
+        let questionEightyFive = Question(question: "Which game company's director will be steping down in March", arrayOfAnswers: ["Epic Games", "Blizzard", "EA", "Ubisoft"], learnMore: "https://www.thegamer.com/activision-ceo-stepping-down/", correctAnswer: 3)
+        
+        let questionEightySix = Question(question: "Which music artist just released his farewell tour?", arrayOfAnswers: ["Metalica", "Eminem", "Elton John", "Bob Dylan"], learnMore: "https://www.npr.org/2018/01/24/580433606/elton-john-says-its-time-to-retire-from-touring-but-only-after-a-3-year-farewell", correctAnswer: 2)
+        
+        let questionEightySeven = Question(question: "Which band recieved MusiCares person of the year award?", arrayOfAnswers: ["Imagine Dragons", "Little Big Town", "Metalica", "Fleetwood Mac"], learnMore: "https://www.rollingstone.com/music/live-reviews/harry-styles-haim-honor-fleetwood-macs-enduring-legacy-w515978", correctAnswer: 3)
+        
+        let questionEightyEight = Question(question: "Where were the Grammys this year?", arrayOfAnswers: ["Beverly Hills", "New York City", "Chicago", "Nashville"], learnMore: "https://en.wikipedia.org/wiki/List_of_Grammy_Award_ceremony_locations", correctAnswer: 1)
+        
+        let questionEightyNine = Question(question: "Which singer is retiring from tours due to Parkinson's disease?", arrayOfAnswers: ["Neil Diamond", "Bruce Springsteen", "Billy Joel", "Barry Manilow"], learnMore: "https://www.independent.ie/entertainment/music/as-neil-diamond-retires-from-touring-due-to-parkinsons-neil-mccormick-looks-back-at-his-50-year-career-36531376.html", correctAnswer: 0)
+        
+        let questionNinty = Question(question: "Which former Fifth Harmony singer has a hit single featuring Young Thung", arrayOfAnswers: ["Lorde", "Sia", "Alessia Cara","Camila Cabello"], learnMore: "https://en.wikipedia.org/wiki/Camila_Cabello", correctAnswer: 3)
+        
+        
         var topic = Topic(name: "Sports", image: UIImage(named: "Sports")!, description:
             "Think you know all about the sports world? This topic inclues questions about recent fixtures and matches from a variety of sports, from football to futbol.", questionPool: [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen, questionEleven, questionTweleve, questionThirteen, questionFourteen, questionFifteen, questionSixteen, questionSeventeen, questionEighteen, questionNineteen, questionTwenty])
         var topics: [Topic] = []
@@ -162,14 +207,16 @@ class TopicTableViewController: UITableViewController {
         topic = Topic(name: "Politics", image: UIImage(named: "Politics")!, description: "From Russia to Brazil, this quiz test your knowledge on world politics.", questionPool: [questionTwentyOne, questionTwentyTwo, questionTwentyThree, questionTwentyFour, questionTwentyFive, questionTwentySix, questionTwentySeven, questionTwentyEight, questionTwentyNine, questionThirty, questionThirtyOne, questionThirtyTwo, questionThirtyThree, questionThirtyFour, questionThirtyFive, questionThirtySix, questionThirtySeven, questionThirtyEight, questionThirtyNine, questionForty])
         topics.append(topic)
         
-        topic = Topic(name: "Gaming", image: UIImage(named:"Gaming")!, description: "Think you know the new hits and flops in the gaming industry? This quiz tests your knowledge on video games", questionPool: [questionFortyOne,questionFortySeven, questionFortyEight, questionFortyNine, questionFifty, questionFiftyFour, questionSixtySix,])
+        topic = Topic(name: "Gaming", image: UIImage(named:"Gaming")!, description: "Think you know the biggest hits and fails in the gaming industry? This quiz tests your knowledge on video games", questionPool: [questionFortyOne,questionFortySeven, questionFortyEight, questionFortyNine, questionFifty, questionFiftyFour, questionSixtySix, questionSixtyNine, questionSeventy, questionSeventyOne, questionSeventyTwo, questionSeventyThree, questionEightyFive, questionEightyFour, questionEightyThree, questionEightyTwo, questionEightyOne, questionEighty, questionSeventyNine, questionSeventyEight])
         topics.append(topic)
         
-        topic = Topic(name: "Movies and TV Shows", image: UIImage(named:"Movies")!, description: "From the hottest episodes and movies, this quiz tests your knowledge on the recent additions to the world of movies and tv shows." , questionPool: [questionFortyTwo, questionFortyThree, questionFortyFour,  questionFortySix, questionFiftyOne, questionFiftyTwo, questionFiftyThree, questionFiftySix, questionSixty, questionSixtyFour, questionSixtySeven, questionSixtyEight])
+        topic = Topic(name: "Movies and TV Shows", image: UIImage(named:"Movies")!, description: "From the hottest episodes and movies, this quiz tests your knowledge on the recent additions to the world of movies and tv shows." , questionPool: [questionFortyTwo, questionFortyThree, questionFortyFour,  questionFortySix, questionFiftyOne, questionFiftyTwo, questionFiftyThree, questionFiftySix, questionSixty, questionSixtyFour, questionSixtySeven, questionSixtyEight, questionSeventyFour, questionSeventyFive, questionSeventySix])
         topics.append(topic)
         
-        topic = Topic(name: "Music", image: UIImage(named:"Music")!, description: "From clasical music to classic rock. This quiz tests your understanding of the music world.", questionPool: [questionFortyFive, questionFiftyFive, questionSixtyOne, questionSixtyTwo, questionSixtyThree, questionSixtyFive])
+        topic = Topic(name: "Music", image: UIImage(named:"Music")!, description: "From clasical music to classic rock. This quiz tests your understanding of the music world.", questionPool: [questionFortyFive, questionFiftyFive, questionSixtyOne, questionSixtyTwo, questionSixtyThree, questionSixtyFive, questionSeventySeven, questionEightyEight, questionNinty, questionEightyNine, questionEightySeven, questionEightySix])
         topics.append(topic)
+        
+        
         
         let game = Game(topics:topics)
         self.topics = game.topics
@@ -282,5 +329,7 @@ class TopicTableViewController: UITableViewController {
             //navigationController?.pushViewController(topicVC, animated: true)
         }
     }
+    
+    
     
 }
