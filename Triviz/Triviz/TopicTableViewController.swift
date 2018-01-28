@@ -170,7 +170,7 @@ class TopicTableViewController: UITableViewController {
         
         let questionSeventySix = Question(question: "Which movies award ceremony is happening soon?", arrayOfAnswers: ["The Grammys", "The Emmys", "The Oscars", "Tribeca Film Festival"], learnMore: "https://www.washingtonpost.com/news/comic-riffs/wp/2018/01/12/oscars-voting-ends-today-will-wonder-woman-finally-break-the-anti-superhero-streak/?utm_term=.84ff47e08fcd", correctAnswer: 2)
         
-        let questionSeventySeven = Question(question: "Which artist got the most nominations at this years Grammys?", arrayOfAnswers: ["Bruno Mars", "Cardi B", "Taylor Swift", "Kendrick Lemar"], learnMore: "https://www.grammy.com/grammys/news/60th-grammy-awards-full-nominees-list", correctAnswer: 3)
+        let questionSeventySeven = Question(question: "Which artist got the most nominations at this years Grammys?", arrayOfAnswers: ["Bruno Mars", "Cardi B", "Taylor Swift", "Kendrick Lamar"], learnMore: "https://www.grammy.com/grammys/news/60th-grammy-awards-full-nominees-list", correctAnswer: 3)
         
         let questionSeventyEight = Question(question: "Which underwater survival video game released last month?", arrayOfAnswers: ["Subnautica", "Abzu", "Ark Survival Evolved", "Minecraft"], learnMore: "http://www.ign.com/articles/2018/01/26/subnautica-review", correctAnswer: 0)
         
@@ -197,6 +197,7 @@ class TopicTableViewController: UITableViewController {
         let questionEightyNine = Question(question: "Which singer is retiring from tours due to Parkinson's disease?", arrayOfAnswers: ["Neil Diamond", "Bruce Springsteen", "Billy Joel", "Barry Manilow"], learnMore: "https://www.independent.ie/entertainment/music/as-neil-diamond-retires-from-touring-due-to-parkinsons-neil-mccormick-looks-back-at-his-50-year-career-36531376.html", correctAnswer: 0)
         
         let questionNinty = Question(question: "Which former Fifth Harmony singer has a hit single featuring Young Thung", arrayOfAnswers: ["Lorde", "Sia", "Alessia Cara","Camila Cabello"], learnMore: "https://en.wikipedia.org/wiki/Camila_Cabello", correctAnswer: 3)
+        let questionNintyOne = Question(question: "Which two artists from different genres are doing a colaboration together?", arrayOfAnswers: ["Kendrick Lamar and U2", "Big Shaq and Bruce Springsteen", "Sting and Shaggy"], learnMore: "https://www.rollingstone.com/music/news/inside-sting-and-shaggys-unlikely-new-album-w515796", correctAnswer: 3)
         
         
         var topic = Topic(name: "Sports", image: UIImage(named: "Sports")!, description:
