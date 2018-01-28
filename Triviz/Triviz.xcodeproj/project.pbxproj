@@ -21,6 +21,12 @@
 		1CFCC3111FD242D000B9391F /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC3101FD242D000B9391F /* TopicTableViewCell.swift */; };
 		1CFCC3131FD249C000B9391F /* TopicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC3121FD249C000B9391F /* TopicTableViewController.swift */; };
 		1CFCC3151FD25DFD00B9391F /* TopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCC3141FD25DFD00B9391F /* TopicViewController.swift */; };
+		288541D9201E4E70000C999A /* gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288541D8201E4E70000C999A /* gif.swift */; };
+		288541DB201E4ECC000C999A /* GamingGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 288541DA201E4ECC000C999A /* GamingGif.gif */; };
+		288541DD201E5650000C999A /* MusicGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 288541DC201E564F000C999A /* MusicGif.gif */; };
+		288541DF201E56F1000C999A /* SportsGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 288541DE201E56F0000C999A /* SportsGif.gif */; };
+		288541E1201E57E0000C999A /* PoliticsGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 288541E0201E57E0000C999A /* PoliticsGif.gif */; };
+		288541E3201E5859000C999A /* MoviesGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 288541E2201E5859000C999A /* MoviesGif.gif */; };
 		799EBF4C1FD46CCA000A9061 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799EBF4B1FD46CCA000A9061 /* QuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +68,12 @@
 		1CFCC3101FD242D000B9391F /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
 		1CFCC3121FD249C000B9391F /* TopicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewController.swift; sourceTree = "<group>"; };
 		1CFCC3141FD25DFD00B9391F /* TopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicViewController.swift; sourceTree = "<group>"; };
+		288541D8201E4E70000C999A /* gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gif.swift; sourceTree = "<group>"; };
+		288541DA201E4ECC000C999A /* GamingGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GamingGif.gif; sourceTree = "<group>"; };
+		288541DC201E564F000C999A /* MusicGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MusicGif.gif; sourceTree = "<group>"; };
+		288541DE201E56F0000C999A /* SportsGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SportsGif.gif; sourceTree = "<group>"; };
+		288541E0201E57E0000C999A /* PoliticsGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PoliticsGif.gif; sourceTree = "<group>"; };
+		288541E2201E5859000C999A /* MoviesGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MoviesGif.gif; sourceTree = "<group>"; };
 		799EBF4B1FD46CCA000A9061 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,11 +130,17 @@
 				1CFCC3101FD242D000B9391F /* TopicTableViewCell.swift */,
 				1CFCC3121FD249C000B9391F /* TopicTableViewController.swift */,
 				1CFCC2A21FC1F81200B9391F /* Main.storyboard */,
+				288541D8201E4E70000C999A /* gif.swift */,
 				1C4D6D0B1FDB5B8800CB86BB /* CongratsViewController.swift */,
 				1CFCC3141FD25DFD00B9391F /* TopicViewController.swift */,
 				1CFCC2A51FC1F81200B9391F /* Assets.xcassets */,
+				288541DC201E564F000C999A /* MusicGif.gif */,
+				288541E2201E5859000C999A /* MoviesGif.gif */,
+				288541DE201E56F0000C999A /* SportsGif.gif */,
 				1CFCC2A71FC1F81200B9391F /* LaunchScreen.storyboard */,
+				288541DA201E4ECC000C999A /* GamingGif.gif */,
 				1CFCC2AA1FC1F81200B9391F /* Info.plist */,
+				288541E0201E57E0000C999A /* PoliticsGif.gif */,
 				1CFCC2CC1FC4E37A00B9391F /* Question.swift */,
 				1CFCC2CE1FC4E8D300B9391F /* Topic.swift */,
 				1CFCC2D01FC4F33300B9391F /* Game.swift */,
@@ -256,9 +274,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				288541DD201E5650000C999A /* MusicGif.gif in Resources */,
 				1CFCC2A91FC1F81200B9391F /* LaunchScreen.storyboard in Resources */,
+				288541E3201E5859000C999A /* MoviesGif.gif in Resources */,
 				1CFCC2A61FC1F81200B9391F /* Assets.xcassets in Resources */,
+				288541DB201E4ECC000C999A /* GamingGif.gif in Resources */,
 				1CFCC2A41FC1F81200B9391F /* Main.storyboard in Resources */,
+				288541DF201E56F1000C999A /* SportsGif.gif in Resources */,
+				288541E1201E57E0000C999A /* PoliticsGif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +315,7 @@
 				1CFCC2CF1FC4E8D300B9391F /* Topic.swift in Sources */,
 				1CFCC2CD1FC4E37A00B9391F /* Question.swift in Sources */,
 				1CFCC29F1FC1F81200B9391F /* AppDelegate.swift in Sources */,
+				288541D9201E4E70000C999A /* gif.swift in Sources */,
 				799EBF4C1FD46CCA000A9061 /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
