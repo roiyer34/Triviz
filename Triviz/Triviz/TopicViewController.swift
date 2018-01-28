@@ -35,7 +35,9 @@ class TopicViewController: UIViewController {
         // Do any additional setup after loading the view.
         topicLabel.text = pickedTopic.name
         descriptionLabel.text = pickedTopic.description
-        imageView.image = pickedTopic.image
+        imageView.loadGif(name: pickedTopic.imageTwo)
+        
+        
         
         
        
