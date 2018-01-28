@@ -21,6 +21,7 @@ class QuestionViewController: UIViewController {
     @IBOutlet var answerChoice3Button: UIButton!
     @IBOutlet var answerChoice4Button: UIButton!
     
+    
     var answeredQs: [Int] = []
     var correctAnswers: Int = 0
     var total: Int = 11
