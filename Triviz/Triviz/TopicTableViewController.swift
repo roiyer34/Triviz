@@ -203,7 +203,7 @@ class TopicTableViewController: UITableViewController {
         
         let questionNintyThree = Question(question: "Which tv channel aired the Super Bowl?", arrayOfAnswers: ["NBC", "Fox", "CBS", "NFL Network"], learnMore: "https://www.si.com/nfl/2018/super-bowl-lii-tv-channel-broadcast-network", correctAnswer: 0)
         
-        let questionNintyFour = Question(question: "Which candy is only letting one person watch their superbowl ad?", arrayOfAnswers: ["Airheads", "Skittles", "Hersheys", "Reeses"], learnMore: "http://www.chicagotribune.com/news/chicagoinc/ct-met-schwimmer-skittles-ad-superbowl-chicago-inc-20180126-story.html", correctAnswer: 1)
+        let questionNintyFour = Question(question: "Which candy is only allowed one person watch their Super Bowl ad before it aired?", arrayOfAnswers: ["Airheads", "Skittles", "Hersheys", "Reeses"], learnMore: "http://www.chicagotribune.com/news/chicagoinc/ct-met-schwimmer-skittles-ad-superbowl-chicago-inc-20180126-story.html", correctAnswer: 1)
         
         
         
@@ -218,10 +218,10 @@ class TopicTableViewController: UITableViewController {
         topic = Topic(name: "Gaming", image: UIImage(named:"Gaming")!, description: "Think you know the biggest hits and fails in the gaming industry? This quiz tests your knowledge on video games", questionPool: [questionFortyOne,questionFortySeven, questionFortyEight, questionFortyNine, questionFifty, questionFiftyFour, questionSixtySix, questionSixtyNine, questionSeventy, questionSeventyOne, questionSeventyTwo, questionSeventyThree, questionEightyFive, questionEightyFour, questionEightyThree, questionEightyTwo, questionEightyOne, questionEighty, questionSeventyNine, questionSeventyEight])
         topics.append(topic)
         
-        topic = Topic(name: "Movies and TV Shows", image: UIImage(named:"Movies")!, description: "From the hottest episodes and movies, this quiz tests your knowledge on the recent additions to the world of movies and tv shows." , questionPool: [questionFortyTwo, questionFortyThree, questionFortyFour,  questionFortySix, questionFiftyOne, questionFiftyTwo, questionFiftyThree, questionFiftySix, questionSixty, questionSixtyFour, questionSixtySeven, questionSixtyEight, questionSeventyFour, questionSeventyFive, questionSeventySix])
+        topic = Topic(name: "Movies and TV Shows", image: UIImage(named:"Movies")!, description: "From the hottest episodes and movies, this quiz tests your knowledge on the recent additions to the world of movies and tv shows." , questionPool: [questionFortyTwo, questionFortyThree, questionFortyFour,  questionFortySix, questionFiftyOne, questionFiftyTwo, questionFiftyThree, questionFiftySix, questionSixty, questionSixtyFour, questionSixtySeven, questionSixtyEight, questionSeventyFour, questionSeventyFive, questionSeventySix, questionNintyFour, questionNintyThree])
         topics.append(topic)
         
-        topic = Topic(name: "Music", image: UIImage(named:"Music")!, description: "From clasical music to classic rock. This quiz tests your understanding of the music world.", questionPool: [questionFortyFive, questionFiftyFive, questionSixtyOne, questionSixtyTwo, questionSixtyThree, questionSixtyFive, questionSeventySeven, questionEightyEight, questionNinty, questionEightyNine, questionEightySeven, questionEightySix, questionNintyOne])
+        topic = Topic(name: "Music", image: UIImage(named:"Music")!, description: "From clasical music to classic rock. This quiz tests your understanding of the music world.", questionPool: [questionFortyFive, questionFiftyFive, questionSixtyOne, questionSixtyTwo, questionSixtyThree, questionSixtyFive, questionSeventySeven, questionEightyEight, questionNinty, questionEightyNine, questionEightySeven, questionEightySix, questionNintyOne, questionNintyTwo])
         topics.append(topic)
         
         
