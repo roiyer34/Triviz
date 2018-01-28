@@ -199,6 +199,13 @@ class TopicTableViewController: UITableViewController {
         let questionNinty = Question(question: "Which former Fifth Harmony singer has a hit single featuring Young Thung", arrayOfAnswers: ["Lorde", "Sia", "Alessia Cara","Camila Cabello"], learnMore: "https://en.wikipedia.org/wiki/Camila_Cabello", correctAnswer: 3)
         let questionNintyOne = Question(question: "Which two artists from different genres are doing a colaboration together?", arrayOfAnswers: ["Kendrick Lamar and U2", "Big Shaq and Bruce Springsteen", "Sting and Shaggy"], learnMore: "https://www.rollingstone.com/music/news/inside-sting-and-shaggys-unlikely-new-album-w515796", correctAnswer: 3)
         
+        let questionNintyTwo = Question(question: "Who preformed for the Super Bowl this year ", arrayOfAnswers: ["Bruno Mars", "Lady Gaga", "Ed Sheeran", "Justin Timberlake"], learnMore: "https://www.nfl.com/super-bowl/halftime-show", correctAnswer: 3)
+        
+        let questionNintyThree = Question(question: "Which tv channel aired the Super Bowl?", arrayOfAnswers: ["NBC", "Fox", "CBS", "NFL Network"], learnMore: "https://www.si.com/nfl/2018/super-bowl-lii-tv-channel-broadcast-network", correctAnswer: 0)
+        
+        let questionNintyFour = Question(question: "Which candy is only letting one person watch their superbowl ad?", arrayOfAnswers: ["Airheads", "Skittles", "Hersheys", "Reeses"], learnMore: "http://www.chicagotribune.com/news/chicagoinc/ct-met-schwimmer-skittles-ad-superbowl-chicago-inc-20180126-story.html", correctAnswer: 1)
+        
+        
         
         var topic = Topic(name: "Sports", image: UIImage(named: "Sports")!, description:
             "Think you know all about the sports world? This topic inclues questions about recent fixtures and matches from a variety of sports, from football to futbol.", questionPool: [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen, questionEleven, questionTweleve, questionThirteen, questionFourteen, questionFifteen, questionSixteen, questionSeventeen, questionEighteen, questionNineteen, questionTwenty])
@@ -214,7 +221,7 @@ class TopicTableViewController: UITableViewController {
         topic = Topic(name: "Movies and TV Shows", image: UIImage(named:"Movies")!, description: "From the hottest episodes and movies, this quiz tests your knowledge on the recent additions to the world of movies and tv shows." , questionPool: [questionFortyTwo, questionFortyThree, questionFortyFour,  questionFortySix, questionFiftyOne, questionFiftyTwo, questionFiftyThree, questionFiftySix, questionSixty, questionSixtyFour, questionSixtySeven, questionSixtyEight, questionSeventyFour, questionSeventyFive, questionSeventySix])
         topics.append(topic)
         
-        topic = Topic(name: "Music", image: UIImage(named:"Music")!, description: "From clasical music to classic rock. This quiz tests your understanding of the music world.", questionPool: [questionFortyFive, questionFiftyFive, questionSixtyOne, questionSixtyTwo, questionSixtyThree, questionSixtyFive, questionSeventySeven, questionEightyEight, questionNinty, questionEightyNine, questionEightySeven, questionEightySix])
+        topic = Topic(name: "Music", image: UIImage(named:"Music")!, description: "From clasical music to classic rock. This quiz tests your understanding of the music world.", questionPool: [questionFortyFive, questionFiftyFive, questionSixtyOne, questionSixtyTwo, questionSixtyThree, questionSixtyFive, questionSeventySeven, questionEightyEight, questionNinty, questionEightyNine, questionEightySeven, questionEightySix, questionNintyOne])
         topics.append(topic)
         
         
