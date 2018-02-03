@@ -131,7 +131,7 @@ class TopicTableViewController: UITableViewController {
         
         let questionFiftyThree = Question(question: "Which is not one of the names of the 3 nephews in the 2017 reboot of the tv show Ducktales?", arrayOfAnswers: ["Huey","Louie","Dewey","Webey"], learnMore: "http://disneyxd.disney.com/ducktales", correctAnswer: 3)
         
-        let questionFiftyFour = Question(question: "What videogames are being played professionaly in australia in big tournaments in the month of December as of December 4th?", arrayOfAnswers: ["PUBG and Starcraft 2","Overwatch and Doom","Overwatch and Mario Cart 8","Starwars Battlefront 2 and Call of Duty WW2"], learnMore: "http://www.ign.com/articles/2017/10/12/ign-esports-whats-coming-up-in-hearthstone-cod-smite-dota-2-and-more", correctAnswer: 0)
+        let questionFiftyFour = Question(question: "What videogames are being played professionaly in in big tournaments in the month of February?", arrayOfAnswers: ["PUBG and Starcraft 2","Overwatch and Doom","Overwatch and Mario Cart 8","Starwars Battlefront 2 and Call of Duty WW2"], learnMore: "http://www.ign.com/articles/2017/10/12/ign-esports-whats-coming-up-in-hearthstone-cod-smite-dota-2-and-more", correctAnswer: 0)
         
         let questionFiftyFive = Question(question: "Which music awards ceremony is being held this month?", arrayOfAnswers: ["The Grammys","The Oscars","The Kenedey Center Honors","The iHeart Radio Music Festival"], learnMore: "https://www.washingtonpost.com/entertainment/the-latest-kennedy-honors-held-without-the-trumps/2017/12/03/d75aa906-d87f-11e7-a241-0848315642d0_story.html?utm_term=.65a96c0a4cb5", correctAnswer: 0)
         
@@ -197,15 +197,22 @@ class TopicTableViewController: UITableViewController {
         let questionEightyNine = Question(question: "Which singer is retiring from tours due to Parkinson's disease?", arrayOfAnswers: ["Neil Diamond", "Bruce Springsteen", "Billy Joel", "Barry Manilow"], learnMore: "https://www.independent.ie/entertainment/music/as-neil-diamond-retires-from-touring-due-to-parkinsons-neil-mccormick-looks-back-at-his-50-year-career-36531376.html", correctAnswer: 0)
         
         let questionNinty = Question(question: "Which former Fifth Harmony singer has a hit single featuring Young Thung", arrayOfAnswers: ["Lorde", "Sia", "Alessia Cara","Camila Cabello"], learnMore: "https://en.wikipedia.org/wiki/Camila_Cabello", correctAnswer: 3)
-        let questionNintyOne = Question(question: "Which two artists from different genres are doing a colaboration together?", arrayOfAnswers: ["Kendrick Lamar and U2", "Big Shaq and Bruce Springsteen", "Sting and Shaggy"], learnMore: "https://www.rollingstone.com/music/news/inside-sting-and-shaggys-unlikely-new-album-w515796", correctAnswer: 3)
         
-        let questionNintyTwo = Question(question: "Who preformed for the Super Bowl this year ", arrayOfAnswers: ["Bruno Mars", "Lady Gaga", "Ed Sheeran", "Justin Timberlake"], learnMore: "https://www.nfl.com/super-bowl/halftime-show", correctAnswer: 3)
+        let questionNinetyOne = Question(question: "Which two artists from different genres are doing a colaboration together?", arrayOfAnswers: ["Kendrick Lamar and U2", "Big Shaq and Bruce Springsteen", "Sting and Shaggy"], learnMore: "https://www.rollingstone.com/music/news/inside-sting-and-shaggys-unlikely-new-album-w515796", correctAnswer: 3)
         
-        let questionNintyThree = Question(question: "Which tv channel aired the Super Bowl?", arrayOfAnswers: ["NBC", "Fox", "CBS", "NFL Network"], learnMore: "https://www.si.com/nfl/2018/super-bowl-lii-tv-channel-broadcast-network", correctAnswer: 0)
+        let questionNinetyTwo = Question(question: "Who preformed for the Super Bowl this year ", arrayOfAnswers: ["Bruno Mars", "Lady Gaga", "Ed Sheeran", "Justin Timberlake"], learnMore: "https://www.nfl.com/super-bowl/halftime-show", correctAnswer: 3)
         
-        let questionNintyFour = Question(question: "Which candy is only allowed one person watch their Super Bowl ad before it aired?", arrayOfAnswers: ["Airheads", "Skittles", "Hersheys", "Reeses"], learnMore: "http://www.chicagotribune.com/news/chicagoinc/ct-met-schwimmer-skittles-ad-superbowl-chicago-inc-20180126-story.html", correctAnswer: 1)
+        let questionNinetyThree = Question(question: "Which tv channel aired the Super Bowl?", arrayOfAnswers: ["NBC", "Fox", "CBS", "NFL Network"], learnMore: "https://www.si.com/nfl/2018/super-bowl-lii-tv-channel-broadcast-network", correctAnswer: 0)
         
-     
+        let questionNinetyFour = Question(question: "Which candy is only allowed one person watch their Super Bowl ad before it aired?", arrayOfAnswers: ["Airheads", "Skittles", "Hersheys", "Reeses"], learnMore: "http://www.chicagotribune.com/news/chicagoinc/ct-met-schwimmer-skittles-ad-superbowl-chicago-inc-20180126-story.html", correctAnswer: 1)
+        
+        let questionNinetyFive = Question(question: "Which artist who previously boycotted the Grammys preformed this year?", arrayOfAnswers: ["Dr. Dre", "Eminem", " Snoop Dog", "Jay-Z"], learnMore: "http://www.nme.com/news/music/jay-z-reveals-why-he-returned-to-grammys-after-previously-boycotting-ceremony-2230503", correctAnswer: 3)
+        
+        let questionNinetySix = Question(question: "How many albums have a metascore of 100?", arrayOfAnswers: ["10", "11", "12", "13"], learnMore: "http://www.metacritic.com/browse/albums/release-date/available/metascore", correctAnswer: 1)
+        
+        let questionNinetySeven = Question(question: "Throwback Question! Which rap album has the highest metascore?", arrayOfAnswers: ["Straight Out of Compton", "Humble.", "Chronic", "To Pimp a Butterfly"], learnMore: "http://www.metacritic.com/browse/albums/genre/metascore/rap?view=condensed", correctAnswer: 3)
+        
+        let questionNinetyEight = Question(question: "Which movie that came out in January has a Rotten Tomatoes score of 100", arrayOfAnswers: ["Hostiles", "Star Wars: The Last Jedi", "The Post", "Paddington 2"], learnMore: "", correctAnswer: 3)
         
         var topic = Topic(name: "Sports", image: UIImage(named: "Sports")!, description:
             "Think you know all about the sports world? This topic inclues questions about recent fixtures and matches from a variety of sports, from football to futbol.", questionPool: [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen, questionEleven, questionTweleve, questionThirteen, questionFourteen, questionFifteen, questionSixteen, questionSeventeen, questionEighteen, questionNineteen, questionTwenty], imageTwo: "SportsGif")
@@ -218,10 +225,10 @@ class TopicTableViewController: UITableViewController {
         topic = Topic(name: "Gaming", image: UIImage(named:"Gaming")!, description: "Think you know the biggest hits and fails in the gaming industry? This quiz tests your knowledge on video games", questionPool: [questionFortyOne,questionFortySeven, questionFortyEight, questionFortyNine, questionFifty, questionFiftyFour, questionSixtySix, questionSixtyNine, questionSeventy, questionSeventyOne, questionSeventyTwo, questionSeventyThree, questionEightyFive, questionEightyFour, questionEightyThree, questionEightyTwo, questionEightyOne, questionEighty, questionSeventyNine, questionSeventyEight], imageTwo: "GamingGif")
         topics.append(topic)
         
-        topic = Topic(name: "Movies and TV Shows", image: UIImage(named:"Movies")!, description: "From the hottest episodes and movies, this quiz tests your knowledge on the recent additions to the world of movies and tv shows." , questionPool: [questionFortyTwo, questionFortyThree, questionFortyFour,  questionFortySix, questionFiftyOne, questionFiftyTwo, questionFiftyThree, questionFiftySix, questionSixty, questionSixtyFour, questionSixtySeven, questionSixtyEight, questionSeventyFour, questionSeventyFive, questionSeventySix, questionNintyFour, questionNintyThree], imageTwo: "MoviesGif")
+        topic = Topic(name: "Movies and TV Shows", image: UIImage(named:"Movies")!, description: "From the hottest episodes and movies, this quiz tests your knowledge on the recent additions to the world of movies and tv shows." , questionPool: [questionFortyTwo, questionFortyThree, questionFortyFour,  questionFortySix, questionFiftyOne, questionFiftyTwo, questionFiftyThree, questionFiftySix, questionSixty, questionSixtyFour, questionSixtySeven, questionSixtyEight, questionSeventyFour, questionSeventyFive, questionSeventySix, questionNinetyFour, questionNinetyThree, questionNinetyEight], imageTwo: "MoviesGif")
         topics.append(topic)
         
-        topic = Topic(name: "Music", image: UIImage(named:"Music")!, description: "From clasical music to classic rock. This quiz tests your understanding of the music world.", questionPool: [questionFortyFive, questionFiftyFive, questionSixtyOne, questionSixtyTwo, questionSixtyThree, questionSixtyFive, questionSeventySeven, questionEightyEight, questionNinty, questionEightyNine, questionEightySeven, questionEightySix, questionNintyOne, questionNintyTwo], imageTwo: "MusicGif")
+        topic = Topic(name: "Music", image: UIImage(named:"Music")!, description: "From clasical music to classic rock. This quiz tests your understanding of the music world.", questionPool: [questionFortyFive, questionFiftyFive, questionSixtyOne, questionSixtyTwo, questionSixtyThree, questionSixtyFive, questionSeventySeven, questionEightyEight, questionNinty, questionEightyNine, questionEightySeven, questionEightySix, questionNinetyOne, questionNinetyTwo, questionNinetyFive, questionNinetySeven, questionNinetySix], imageTwo: "MusicGif")
         topics.append(topic)
         
         
