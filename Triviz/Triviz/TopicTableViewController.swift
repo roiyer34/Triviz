@@ -214,7 +214,7 @@ class TopicTableViewController: UITableViewController {
         
         let questionNinetyEight = Question(question: "Which movie that came out in January has a Rotten Tomatoes score of 100", arrayOfAnswers: ["Hostiles", "Star Wars: The Last Jedi", "The Post", "Paddington 2"], learnMore: "", correctAnswer: 3)
         
-        let questionNinetyNine = Question(question: "Which movie's Rottten Tomato score is being threated by DC Comics Fanboys?", arrayOfAnswers: ["Hostiles", "Solo", "Mission Impossible", "Black Panther"], learnMore: "https://www.cnn.com/2018/02/02/entertainment/black-panther-negative-reviews/index.html", correctAnswer: 3)
+        let questionNinetyNine = Question(question: "Which movie's Rottten Tomato fan score is being threated by DC Comics Fanboys?", arrayOfAnswers: ["Hostiles", "Solo", "Mission Impossible", "Black Panther"], learnMore: "https://www.cnn.com/2018/02/02/entertainment/black-panther-negative-reviews/index.html", correctAnswer: 3)
         
         let questionOneHundred = Question(question: "Which video game released for the PS2 recently got a remaster for the PS4?", arrayOfAnswers: ["Shadow of the Colossus", "Crash Bandicoot", "God of War", "Phantasy Star Online" ], learnMore: "https://www.forbes.com/sites/games/2018/02/03/shadow-of-the-colossus-review-an-incredibly-faithful-remake-of-a-classic-game/#595d456a4475", correctAnswer: 0)
         
