@@ -205,10 +205,36 @@ class TopicTableViewController: UITableViewController {
         
         let questionNintyFour = Question(question: "Which candy is only allowed one person watch their Super Bowl ad before it aired?", arrayOfAnswers: ["Airheads", "Skittles", "Hersheys", "Reeses"], learnMore: "http://www.chicagotribune.com/news/chicagoinc/ct-met-schwimmer-skittles-ad-superbowl-chicago-inc-20180126-story.html", correctAnswer: 1)
         
+        let questionOneThousand = Question(question: "Which player is not part of the soccer team of the year starting 11", arrayOfAnswers: ["Harry Kane","Leonardo Bonnuci","Neymar","Dani Alves"], learnMore: "https://www.easports.com/fifa/ultimate-team/team-of-the-year", correctAnswer: 2)
+        
+        let questionOneThousandOne = Question(question: "Who is currently the top scorer in the English Premier League?", arrayOfAnswers: ["Mohammed Salah","Harry Kane","Roberto Firmino","Kun Aguero"], learnMore: "https://www.premierleague.com/stats/top/players", correctAnswer: 1)
+        
+        let questionOneThousandTwo = Question(question: "Which goalkeeper has the most clean sheets in the English Premier League", arrayOfAnswers: ["David De Gea","Ederson","Gianluigi Buffon","Hugo LLoris"], learnMore: "https://www.premierleague.com/stats/top/players", correctAnswer: 0)
+        
+        let questionOneThousandThree = Question(question: "Which team upset Real Madrid 2-1 to knock them out of the Copa del Rey?", arrayOfAnswers: ["Sevilla", "Getafe CF", "Real Betis", "Leganes"], learnMore: "https://www.managingmadrid.com/2018/1/25/16930324/real-madrid-leganes-2018-match-review", correctAnswer: 3)
+        
+        let questionOneThousandFour = Question(question: "Which two teams are meeting in Superbowl LII?", arrayOfAnswers: ["Eagles and Patriots","Patriots and Broncos","Redskins and Broncos","Browns and Eagles"], learnMore: "https://www.cbssports.com/nfl/news/when-is-the-2018-super-bowl-date-time-schedule-tv-for-patriots-vs-eagles/", correctAnswer: 0)
+        
+        let questionOneThousandFive = Question(question: "How many wins do Bayern Munich have(after playing exactly 20 games)", arrayOfAnswers: ["16","19","17","12"], learnMore: "http://www.skysports.com/bayern-munich", correctAnswer: 0)
+        
+        let questionOneThousandSix = Question(question: "Who recently scored their 100th Bundesliga goal with a bicycle kick?", arrayOfAnswers: ["Robert Lewandowski","Arjen Robben","Thomas Muller","Marco Reus"], learnMore: "http://www.skysports.com/football/news/11881/11217820/bundesliga-round-up-bayern-munichs-thomas-muller-brings-up-his-ton-against-werder-bremen", correctAnswer: 2)
+        
+        let questionOneThousandSeven = Question(question: "Which player recently transfered to Arsenal after a 56 euro deal?", arrayOfAnswers: ["Lionel Messi","Granit Xhaka","Henrikh Mkhitaryan","Pierre-Emerick Aubameyang"], learnMore: "http://metro.co.uk/2018/02/01/aubameyang-trains-alone-arsenal-completing-56m-transfer-7279057/", correctAnswer: 3)
+        
+        let questionOneThousandEight = Question(question: "Which team is not part of the Big Six of English Football", arrayOfAnswers: ["Liverpool","Leicester City","Manchester City","Tottenham Hotspur"], learnMore: "http://www.telegraph.co.uk/football/2017/10/02/changing-shape-premier-league-big-six-pulling-away/", correctAnswer: 1)
+        
+        let questionOneThousandNine = Question(question: "Throwback Question! Which team won the first World Series in baseball?", arrayOfAnswers: ["New York Yankees","Boston Americans","Boston Red Sox","Los Angeles Dodgers"], learnMore: "https://www.factretriever.com/baseball-facts", correctAnswer: 1)
+        
+        let questionOneThousandTen = Question(question: "Throwback Question! In what year was it a requirement for football players to wear helmets?", arrayOfAnswers: ["1984","1968","2001","1943"], learnMore: "http://www.pinnacle-pt.com/blog/whats-new/post/12-fun-football-facts", correctAnswer: 3)
      
+        let questionOneThousandEleven = Question(question: "Throwback Question! What is the diameter of a hockey puck?", arrayOfAnswers: ["4.5 inches","3.5 inches","3 inches","4 inches"], learnMore: "http://www.softschools.com/facts/sports/hockey_facts/569/", correctAnswer: 2)
+        
+        let questionOneThousandTwelve = Question(question: "Who is currently the top scorer in the Ligue One?", arrayOfAnswers: ["Edison Cavani","Neymar","Radamel Falcao","Nabil Fekir"], learnMore: "http://www.bbc.com/sport/football/french-ligue-one/top-scorers", correctAnswer: 0)
+        
+        let questionOneThousandThirteen = Question(question: "On which date will the 2018 Super Bowl take place?", arrayOfAnswers: ["Febuary 4th","Febuary 11th","Febuary 5th","Febuary 12th"], learnMore: "https://www.google.com/search?client=safari&rls=en&q=day+of+2018+superbowl&ie=UTF-8&oe=UTF-8", correctAnswer: 1)
         
         var topic = Topic(name: "Sports", image: UIImage(named: "Sports")!, description:
-            "Think you know all about the sports world? This topic inclues questions about recent fixtures and matches from a variety of sports, from football to futbol.", questionPool: [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen, questionEleven, questionTweleve, questionThirteen, questionFourteen, questionFifteen, questionSixteen, questionSeventeen, questionEighteen, questionNineteen, questionTwenty], imageTwo: "SportsGif")
+            "Think you know all about the sports world? This topic inclues questions about recent fixtures and matches from a variety of sports, from football to futbol.", questionPool: [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen, questionEleven, questionTweleve, questionThirteen, questionFourteen, questionFifteen, questionSixteen, questionSeventeen, questionEighteen, questionNineteen, questionTwenty, questionOneThousand, questionOneThousandOne, questionOneThousandTwo, questionOneThousandThree, questionOneThousandFour, questionOneThousandFive, questionOneThousandSix, questionOneThousandSeven, questionOneThousandEight, questionOneThousandNine, questionOneThousandTen, questionOneThousandEleven, questionOneThousandTwelve, questionOneThousandThirteen], imageTwo: "SportsGif")
         var topics: [Topic] = []
         topics.append(topic)
         

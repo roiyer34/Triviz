@@ -14,7 +14,7 @@ class CongratsViewController: UIViewController {
     
     @IBOutlet var scoreLabel: UILabel!
     @IBOutlet var noteLabel: UILabel!
-    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +23,7 @@ class CongratsViewController: UIViewController {
         scoreLabel.text = "\(score) / 10"
         if (score < 4) {
             noteLabel.text = "Not bad if this is golf."
+ 
         }
         if ((score > 3) && (score < 7)) {
             noteLabel.text = "Meh, needs a little more improvement."
