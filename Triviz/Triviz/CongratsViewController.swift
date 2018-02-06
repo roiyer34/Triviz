@@ -14,7 +14,8 @@ class CongratsViewController: UIViewController {
     
     @IBOutlet var scoreLabel: UILabel!
     @IBOutlet var noteLabel: UILabel!
-   
+    @IBOutlet var image: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,16 +24,20 @@ class CongratsViewController: UIViewController {
         scoreLabel.text = "\(score) / 10"
         if (score < 4) {
             noteLabel.text = "Not bad if this is golf."
- 
+            image.loadGif(name: "NiceTry")
+            
         }
         if ((score > 3) && (score < 7)) {
             noteLabel.text = "Meh, needs a little more improvement."
+            image.loadGif(name: "Fair")
         }
         if ((score > 6) && (score < 10)) {
             noteLabel.text = "You are pretty good at this."
+             image.loadGif(name: "PrettyGood")
         }
         if (score == 10) {
             noteLabel.text = "You are a legend :)"
+            image.loadGif(name: "Legend")
         }
         if (score > 10) {
             noteLabel.text = "You have successfully broken the game"
