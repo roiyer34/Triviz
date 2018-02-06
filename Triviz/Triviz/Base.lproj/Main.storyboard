@@ -342,8 +342,7 @@
                         <viewLayoutGuide key="safeArea" id="Qk5-RW-4HX"/>
                     </view>
                     <connections>
-                        <outlet property="gifImage" destination="bvF-je-KiV" id="2H0-Bx-rKY"/>
-                        <outlet property="loadGif" destination="bvF-je-KiV" id="C9T-qE-3Bb"/>
+                        <outlet property="image" destination="bvF-je-KiV" id="4T3-z6-aFq"/>
                         <outlet property="noteLabel" destination="MUZ-PC-ahe" id="t1K-a7-CKD"/>
                         <outlet property="scoreLabel" destination="Wgq-hH-pkQ" id="TO4-05-GeE"/>
                     </connections>
