@@ -12,7 +12,8 @@ class QuestionViewController: UIViewController {
     var topic: Topic = Topic()
 
     
-    @IBOutlet weak var topicLabel: UITextField!
+    
+    @IBOutlet weak var topicLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
     
