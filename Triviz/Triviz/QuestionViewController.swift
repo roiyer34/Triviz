@@ -24,7 +24,7 @@ class QuestionViewController: UIViewController {
     
     var answeredQs: [Int] = []
     var correctAnswers: Int = 0
-    var total: Int = 11
+    var total: Int = 10
     var question: Question = Question(question: "", arrayOfAnswers: [], learnMore: "", correctAnswer: 0)
     
     override func viewDidLoad() {
@@ -49,7 +49,8 @@ class QuestionViewController: UIViewController {
         scoreLabel.text = "\(correctAnswers) / \(answeredQs.count)"
         
         // Pick a question
-        var questionIndex = Int(arc4random_uniform(UInt32(topic.questionPool.count)))
+        var questionIndex =  Int(arc4random_uniform(UInt32(topic.questionPool.count)))
+        
         
         //Make sure the question is new
         while (answeredQs.contains(questionIndex)) {
