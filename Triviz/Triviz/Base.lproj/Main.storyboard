@@ -26,7 +26,7 @@
         <scene sceneID="5eg-fw-HzV">
             <objects>
                 <tableViewController id="iwj-hq-YrD" customClass="TopicTableViewController" customModule="Triviz" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" allowsMultipleSelection="YES" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="JXC-oS-8xF">
+                    <tableView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="JXC-oS-8xF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.29803921568627451" green="0.35686274509803922" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
@@ -358,6 +358,7 @@
                             <constraint firstItem="bvF-je-KiV" firstAttribute="top" secondItem="MUZ-PC-ahe" secondAttribute="bottom" constant="75" id="WPe-qh-p0X"/>
                             <constraint firstItem="sEH-Qz-YOC" firstAttribute="centerX" secondItem="PXP-z3-eRW" secondAttribute="centerX" id="cu2-Yt-UgE"/>
                             <constraint firstItem="gas-OC-XU0" firstAttribute="leading" secondItem="Qk5-RW-4HX" secondAttribute="leading" constant="5" id="eVs-ab-1cc"/>
+                            <constraint firstItem="sEH-Qz-YOC" firstAttribute="top" secondItem="6QZ-6N-ZqN" secondAttribute="bottom" constant="72" id="hVY-hg-r8l"/>
                             <constraint firstItem="6QZ-6N-ZqN" firstAttribute="top" secondItem="Qk5-RW-4HX" secondAttribute="top" id="hk1-XL-JmT"/>
                             <constraint firstItem="MUZ-PC-ahe" firstAttribute="top" secondItem="sEH-Qz-YOC" secondAttribute="bottom" constant="19" id="i8z-r5-gjb"/>
                             <constraint firstItem="Qk5-RW-4HX" firstAttribute="bottom" secondItem="gas-OC-XU0" secondAttribute="bottom" constant="36" id="uos-Cc-l5c"/>
